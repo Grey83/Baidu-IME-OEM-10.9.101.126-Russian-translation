@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/v_top_line" android:background="#ffe4e4e4" android:layout_width="fill_parent" android:layout_height="0.33000004dip" />
+    <FrameLayout android:id="@id/fl_title" android:layout_width="fill_parent" android:layout_height="43.329987dip">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_close" android:layout_width="50.0dip" android:layout_height="fill_parent" android:src="@drawable/emotion2_close" android:scaleType="centerInside" android:paddingStart="10.599976dip" android:paddingEnd="10.599976dip" />
+        <com.baidu.input.acgfont.ImeTextView android:textSize="17.0sp" android:textColor="@android:color/black" android:layout_gravity="center" android:id="@id/ll_first_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/trans_lang_select" />
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_gravity="center" android:id="@id/ll_second_title" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="50.0dip" android:layout_marginRight="50.0dip" android:layout_marginHorizontal="50.0dip">
+            <com.baidu.input.acgfont.ImeTextView android:textSize="17.0sp" android:textColor="@color/black" android:ellipsize="end" android:gravity="center|right" android:id="@id/tv_first" android:layout_width="0.0dip" android:layout_height="0.0dip" android:text="@string/trans_lang_select" android:maxLines="1" android:maxEms="6" android:layout_toStartOf="@id/iv_exchange_language" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toLeftOf="@id/iv_exchange_language" app:layout_constraintTop_toTopOf="parent" />
+            <ImageView android:id="@id/iv_exchange_language" android:paddingLeft="15.669983dip" android:paddingRight="15.669983dip" android:layout_width="45.339996dip" android:layout_height="0.0dip" android:src="@drawable/translate_ex_change_t" android:layout_centerInParent="true" android:paddingHorizontal="15.669983dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toRightOf="@id/tv_first" app:layout_constraintRight_toLeftOf="@id/tv_second" app:layout_constraintTop_toTopOf="parent" />
+            <com.baidu.input.acgfont.ImeTextView android:textSize="17.0sp" android:textColor="@color/black" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/tv_second" android:layout_width="0.0dip" android:layout_height="0.0dip" android:text="@string/trans_lang_select" android:maxLines="1" android:maxEms="6" android:layout_toEndOf="@id/iv_exchange_language" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toRightOf="@id/iv_exchange_language" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </FrameLayout>
+    <View android:id="@id/split_line" android:background="#ffe4e4e4" android:layout_width="fill_parent" android:layout_height="0.33000004dip" />
+    <RelativeLayout android:id="@id/rl_translate_content" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_language" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never" />
+        <RelativeLayout android:id="@id/rl_add_language" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <androidx.viewpager2.widget.ViewPager2 android:id="@id/vp2_language_select" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="42.669983dip" android:overScrollMode="never" />
+            <RelativeLayout android:id="@id/rl_add_buttons" android:layout_width="fill_parent" android:layout_height="42.669983dip" android:layout_alignParentBottom="true">
+                <View android:id="@id/v_bottom_line" android:background="#ffe4e4e4" android:layout_width="fill_parent" android:layout_height="0.33000004dip" />
+                <com.baidu.input.acgfont.ImeTextView android:textSize="14.0sp" android:textColor="#ffffffff" android:id="@id/tv_add_use" android:background="@drawable/translate_add_language_selector" android:paddingLeft="14.329987dip" android:paddingTop="5.0dip" android:paddingRight="14.329987dip" android:paddingBottom="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="添加并使用" android:layout_centerInParent="true" android:paddingHorizontal="14.329987dip" android:paddingVertical="5.0dip" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

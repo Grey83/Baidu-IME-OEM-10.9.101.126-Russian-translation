@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/sapi_sdk_addr_map_scroll_layout_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_gravity="center_horizontal" android:id="@id/sapi_sdk_panel_handler_view" android:background="@drawable/sapi_sdk_addr_map_scroll_top_line" android:layout_width="40.0dip" android:layout_height="4.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="9.0dip" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/sapi_sdk_search_box_layout" android:background="@drawable/sapi_sdk_addr_map_search_box_bg" android:layout_width="fill_parent" android:layout_height="31.0dip" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:layout_marginBottom="9.0dip">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/sapi_sdk_search_box_ic" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginLeft="8.0dip" android:src="@drawable/sapi_sdk_map_addr_search_box" />
+        <EditText android:textSize="13.0dip" android:textColor="@color/sapi_sdk_addr_map_search_text_color" android:textColorHint="@color/sapi_sdk_addr_map_search_hint_text_color" android:gravity="center_vertical" android:id="@id/sapi_sdk_map_addr_search_et" android:background="@null" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="7.0dip" android:layout_marginRight="10.0dip" android:hint="请输入搜索地点" android:singleLine="true" android:layout_weight="1.0" android:textCursorDrawable="@drawable/sapi_sdk_text_cursor_bg" />
+        <FrameLayout android:layout_gravity="center_vertical" android:layout_width="13.0dip" android:layout_height="13.0dip" android:layout_marginRight="1.0dip">
+            <ImageView android:id="@id/sapi_sdk_clean_map_addr_search_text" android:visibility="gone" android:layout_width="13.0dip" android:layout_height="13.0dip" android:src="@drawable/sapi_sdk_common_et_clear_bg" />
+        </FrameLayout>
+        <View android:id="@id/sapi_sdk_search_box_line" android:background="@color/sapi_sdk_addr_edit_input_bottom_line_bg_color" android:visibility="gone" android:layout_width="0.30000007dip" android:layout_height="9.0dip" android:layout_marginLeft="8.0dip" />
+        <TextView android:textSize="12.0dip" android:textColor="@color/sapi_sdk_addr_edit_input_text_color" android:gravity="center" android:id="@id/sapi_sdk_cancel_query_map_addr" android:visibility="gone" android:layout_width="53.0dip" android:layout_height="wrap_content" android:text="取消" />
+    </LinearLayout>
+</LinearLayout>

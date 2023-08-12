@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/settings_privacy_setting" android:key="@string/pref_key_privacy_setting" baidu:canSearch="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:baidu="http://schemas.android.com/apk/res-auto">
+    <com.baidu.input.pref.ImePreference android:title="服务协议" android:key="@string/pref_key_SERVICE_AGREEMENT" />
+    <com.baidu.input.pref.HelpPref android:title="隐私政策" android:key="@string/pref_key_SERVICE_PRIVACY" />
+    <com.baidu.input.pref.ImePreference android:title="应用权限说明" android:key="@string/pref_key_permission_desc" />
+    <com.baidu.input.pref.ImePreference android:title="第三方信息数据共享" android:key="@string/pref_key_3rd_data_share_explanation" />
+</PreferenceScreen>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="管理自定义输入方案" android:key="@string/pref_key_custom_config_case_root"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.baidu.input.pref.ImePreference android:title="导出自定义输入方案" android:key="@string/pref_key_expt4" />
+    <com.baidu.input.pref.ImePreference android:title="导入自定义输入方案" android:key="@string/pref_key_impt4" />
+    <com.baidu.input.pref.ImePreference android:title="删除自定义输入方案" android:key="@string/pref_key_reset4" />
+</PreferenceScreen>

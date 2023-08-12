@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:gravity="center" android:id="@id/banner_back" android:layout_width="48.0dip" android:layout_height="fill_parent" android:contentDescription="@string/common_bt_back" />
+    <RelativeLayout android:gravity="center" android:layout_gravity="center" android:layout_width="0.0dip" android:layout_height="40.0dip" android:layout_weight="1.0">
+        <com.baidu.input.acgfont.ImeTextView android:textSize="17.0sp" android:textStyle="bold" android:textColor="@android:color/black" android:id="@id/banner_heading" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <ImageView android:id="@id/cus_share" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:src="@drawable/cus_try_share" />
+    <ImageView android:id="@id/banner_imageview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:contentDescription="@string/app_name" />
+    <com.baidu.input.acgfont.ImeTextView android:textSize="16.0sp" android:textColor="#ff000000" android:gravity="center" android:id="@id/bt_title" android:paddingRight="15.0dip" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="编辑" />
+</merge>

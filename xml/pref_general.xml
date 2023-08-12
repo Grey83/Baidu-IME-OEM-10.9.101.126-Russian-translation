@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/settings_general" android:key="@string/pref_key_general_setting" baidu:canSearch="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:baidu="http://schemas.android.com/apk/res-auto">
+    <com.baidu.input.pref.ImePreferenceCategory android:title="基本设置" android:key="@string/pref_key_basic_settings_root">
+        <com.baidu.input.pref.ImeListPreference android:entries="@array/wordassco" android:title="词语联想" android:key="@string/pref_key_wordassco" android:defaultValue="1" android:dialogTitle="选择联想模式" android:entryValues="@array/listvalue3" />
+        <com.baidu.input.pref.EmojiSwitchPref android:persistent="false" android:title="表情" />
+        <com.baidu.input.pref.ImeCheckBoxPreference android:title="启用计算器" android:key="@string/pref_key_calculator" android:defaultValue="true" />
+    </com.baidu.input.pref.ImePreferenceCategory>
+    <com.baidu.input.pref.ImePreferenceCategory android:title="拼音设置" android:key="@string/pref_key_pinyin_settings_root">
+        <com.baidu.input.pref.ImeCheckBoxPreference android:title="启用模糊音" android:key="@string/pref_key_MOHU" android:defaultValue="false" />
+        <com.baidu.input.pref.ImePreference android:title="模糊音设置" android:key="@string/pref_key_mohuyin_settings_root" android:dependency="MOHU" />
+        <com.baidu.input.pref.ImeCheckBoxPreference android:title="繁体输入" android:key="@string/pref_key_BIG5" android:defaultValue="false" />
+        <com.baidu.input.pref.ImeCheckBoxPreference android:title="纠错提示" android:key="@string/pref_key_KP_TIP_SHOW" android:defaultValue="true" />
+        <com.baidu.input.pref.ImeCheckBoxPreference android:title="中英混输" android:key="@string/pref_key_MIXENCH_SENTENCE" android:defaultValue="true" />
+        <com.baidu.input.pref.CustListPref android:entries="@array/yunshuru" android:title="云输入" android:key="@string/pref_key_YUNSHURU" android:defaultValue="2" android:entryValues="@array/yunshuru_value" />
+        <com.baidu.input.pref.CustListPref android:entries="@array/py26listFilter" android:title="全键筛选模式" android:key="@string/pref_key_PY26LISTFILTER" android:defaultValue="1" android:entryValues="@array/listvalue2" />
+    </com.baidu.input.pref.ImePreferenceCategory>
+    <com.baidu.input.pref.ImePreferenceCategory android:title="英文设置" android:key="@string/pref_key_en_settings_root">
+        <com.baidu.input.pref.ImeCheckBoxPreference android:title="开启传统模式" android:key="@string/pref_key_T9" android:defaultValue="true" android:summaryOn="字母模式时使用传统模式" android:summaryOff="字母模式时使用点划模式" />
+        <com.baidu.input.pref.ImeCheckBoxPreference android:title="单词追加空格" android:key="@string/pref_key_addspace" android:defaultValue="false" android:summaryOn="英文单词后自动加空格" android:summaryOff="" />
+        <com.baidu.input.pref.ImeCheckBoxPreference android:title="句首字母自动大写" android:key="@string/pref_key_cap_first_word" android:summary="英文模式自动大写句首字母" android:defaultValue="false" />
+        <com.baidu.input.pref.CustListPref android:entries="@array/ensort" android:title="英文单词排序方式" android:key="@string/pref_key_ENSORT" android:defaultValue="0" android:dialogTitle="选择排序方式" android:entryValues="@array/listvalue3" />
+    </com.baidu.input.pref.ImePreferenceCategory>
+    <com.baidu.input.pref.ImePreferenceCategory android:title="手写设置" android:key="@string/pref_key_handwriting">
+        <com.baidu.input.pref.CustListPref android:entries="@array/hwRecMode" android:title="竖屏手写模式" android:key="@string/pref_key_PortHWRecMode" android:defaultValue="3" android:dialogTitle="@string/port_hwRecMode" android:entryValues="@array/listvalue4" />
+        <com.baidu.input.pref.CustListPref android:entries="@array/hwRecMode" android:title="横屏手写模式" android:key="@string/pref_key_LandHWRecMode" android:defaultValue="3" android:dialogTitle="@string/land_hwRecMode" android:entryValues="@array/listvalue4" />
+        <com.baidu.input.pref.SeekBarPref android:title="识别速度" android:key="@string/pref_key_HWspeed" android:defaultValue="2" />
+        <com.baidu.input.pref.CustListPref android:entries="@array/CLRNAME" android:title="笔刷颜色" android:key="@string/pref_key_HWcolorIdx" android:defaultValue="0" android:entryValues="@array/CLRINDEX" />
+        <com.baidu.input.pref.SeekBarPref android:title="笔刷粗细" android:key="@string/pref_key_HWbrush" android:defaultValue="2" />
+        <com.baidu.input.pref.ImeCheckBoxPreference android:title="启用笔锋效果" android:key="@string/pref_key_TRACEOPT1" android:defaultValue="true" />
+        <com.baidu.input.pref.ImeCheckBoxPreference android:title="启用笔锋效果" android:key="@string/pref_key_TRACEOPT2" android:defaultValue="false" />
+        <com.baidu.input.pref.ImePreference android:title="键盘手写设置" android:key="@string/pref_key_HKChooser" />
+        <com.baidu.input.pref.ImeCheckBoxPreference android:title="光标控制" android:key="@string/pref_key_ARROWCTRL" android:summary="应用于全屏手写" android:defaultValue="false" />
+        <com.baidu.input.pref.CustListPref android:entries="@array/wordassco" android:title="手写联想" android:key="@string/pref_key_HWLIAN" android:defaultValue="2" android:dialogTitle="选择联想模式" android:entryValues="@array/listvalue3" />
+        <com.baidu.input.pref.ImeCheckBoxPreference android:title="手写注音" android:key="@string/pref_key_handwrite_pinyin_annotation" android:defaultValue="false" android:summaryOn="所有字标注拼音" android:summaryOff="生僻字标注拼音" />
+    </com.baidu.input.pref.ImePreferenceCategory>
+    <com.baidu.input.pref.ImePreferenceCategory android:title="皮肤设置" android:key="@string/pref_key_skin_setting">
+        <com.baidu.input.pref.ImeCheckBoxPreference android:title="仅Wi-Fi环境更新百变资源" android:key="@string/pref_key_update_baibian_resources_in_wifi" android:defaultValue="false" />
+    </com.baidu.input.pref.ImePreferenceCategory>
+    <com.baidu.input.pref.ImePreferenceCategory android:title="AI助聊" android:key="pref_key_smart_cloud_category">
+        <com.baidu.input.pref.ImeCheckBoxPreference android:title="启用AI助聊" android:key="@string/pref_key_smart_cloud_word" android:defaultValue="true" />
+        <com.baidu.input.pref.ImeCheckBoxPreference android:title="智能预测" android:key="@string/pref_key_smart_cloud_word_prediction" android:summary="懂你所想，智能补全整句" android:dependency="@string/pref_key_smart_cloud_word" android:defaultValue="true" />
+        <com.baidu.input.pref.ImeCheckBoxPreference android:title="AI创作" android:key="@string/pref_key_smart_cloud_word_auto" android:summary="智能生成趣味创作内容" android:dependency="@string/pref_key_smart_cloud_word" android:defaultValue="true" />
+        <com.baidu.input.pref.ImeCheckBoxPreference android:title="AI校对" android:key="@string/pref_key_smart_cloud_word_re_error" android:summary="智能识别输入的错别字" android:dependency="@string/pref_key_smart_cloud_word" android:defaultValue="true" />
+        <com.baidu.input.pref.ImePreference android:title="@string/npu_config_download" android:key="@string/pref_key_npu_download" android:summary="@string/npu_config_summury" android:dependency="@string/pref_key_smart_cloud_word" android:defaultValue="false" />
+        <com.baidu.input.pref.ImeCheckBoxPreference android:title="@string/npu_config_open" android:key="@string/pref_key_npu_open" android:summary="@string/npu_config_summury" android:dependency="@string/pref_key_smart_cloud_word" />
+    </com.baidu.input.pref.ImePreferenceCategory>
+    <com.baidu.input.pref.ImePreferenceCategory android:title="语音输入" android:key="@string/pref_key_yuyin_settings_root">
+        <com.baidu.input.pref.ImePreference android:title="个性化语音" android:key="@string/pref_key_voice_custom" android:summary="@string/voice_custom_settings_hint" />
+        <com.baidu.input.pref.ImeCheckBoxPreference android:title="长按空格语音输入" android:key="@string/pref_key_spaceVoice" android:defaultValue="true" />
+        <com.baidu.input.pref.ImeCheckBoxPreference android:title="智能场景语音" android:key="@string/pref_key_voiceBarSwitch" android:defaultValue="true" />
+        <com.baidu.input.pref.ImeCheckBoxPreference android:title="极简语音模式" android:key="@string/pref_key_tiny_voice_entry_bar_switch" android:defaultValue="true" />
+        <com.baidu.input.pref.ImeCheckBoxPreference android:title="@string/auto_bd_search" android:key="@string/pref_key_auto_voice_bd_search_switch" android:defaultValue="false" android:summaryOn="@string/auto_bd_search_enable" android:summaryOff="@string/auto_bd_search_disable" />
+        <com.baidu.input.pref.CustListPref android:entries="@array/punctuationMode" android:title="语音标点设置" android:key="@string/pref_key_punctuation2" android:defaultValue="2" android:entryValues="@array/punctuation_value" />
+        <com.baidu.input.pref.CustListPref android:entries="@array/offlineVoiceMode" android:title="离线语音设置" android:key="pref_key_offline_voice_scene" android:defaultValue="0" android:entryValues="@array/offline_voice_value" />
+        <com.baidu.input.pref.ImeCheckBoxPreference android:title="@string/voice_auto_return_settings" android:key="@string/pref_key_voice_auto_return" android:defaultValue="false" />
+    </com.baidu.input.pref.ImePreferenceCategory>
+    <com.baidu.input.pref.ImePreferenceCategory android:title="笔画输入">
+        <com.baidu.input.pref.ImeCheckBoxPreference android:title="笔画字形优先" android:key="@string/pref_key_BHCUT" android:defaultValue="true" />
+    </com.baidu.input.pref.ImePreferenceCategory>
+    <com.baidu.input.pref.ImePreferenceCategory android:title="@string/setting_general_category_wb">
+        <com.baidu.input.pref.ImeCheckBoxPreference android:title="@string/setting_wb_py_blend_input" android:key="@string/pref_key_WBPY" android:defaultValue="true" />
+        <com.baidu.input.pref.ImeCheckBoxPreference android:title="@string/setting_wb_input_hint" android:key="@string/pref_key_wb_code_hint" android:defaultValue="true" />
+        <com.baidu.input.pref.WbPref android:title="@string/setting_wb_input_manage" android:key="@string/pref_key_wbmode" />
+        <com.baidu.input.pref.ImeCheckBoxPreference android:title="@string/setting_wb_four_code_auto_send" android:key="@string/pref_key_wb_four_code_auto_send" android:defaultValue="true" />
+        <com.baidu.input.pref.ImeCheckBoxPreference android:title="@string/setting_wb_five_code_first_send" android:key="@string/pref_key_wb_five_code_first_word_send" android:defaultValue="false" />
+    </com.baidu.input.pref.ImePreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/channel_list_item_left_margin" android:layout_marginRight="@dimen/channel_list_item_left_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="52.0dip">
+        <ImageView android:id="@id/channel_icon_view" android:layout_width="26.0dip" android:layout_height="26.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/poly_name_content" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/channel_list_icon_title_margin" android:layout_toRightOf="@id/channel_icon_view">
+            <TextView android:textSize="@dimen/channel_list_title_text_size" android:textColor="@color/money_color" android:layout_gravity="center_vertical" android:id="@id/channel_name_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="银联" android:lines="1" />
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/poly_channel_second_icon" android:visibility="gone" android:layout_width="23.0dip" android:layout_height="23.0dip" android:layout_marginLeft="8.0dip" />
+        </LinearLayout>
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="45.0dip" android:layout_marginRight="5.0dip" android:layout_toLeftOf="@id/channel_select_view" android:layout_toRightOf="@id/poly_name_content" android:layout_centerVertical="true">
+            <TextView android:textSize="@dimen/channel_list_subtitle_text_size" android:textColor="@color/coupon_subtitle_color" android:gravity="right" android:id="@id/channel_desc_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" android:lines="1" android:singleLine="true" />
+            <TextView android:textSize="@dimen/channel_list_subtitle_text_size" android:textColor="@color/coupon_subtitle_color" android:gravity="right" android:id="@id/installmentTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" android:lines="1" android:singleLine="true" />
+        </FrameLayout>
+        <TextView android:textSize="11.0dip" android:textColor="#ffb8b8b8" android:ellipsize="end" android:gravity="right" android:id="@id/poly_sdk_pay_channel_disable_desc" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:lines="1" android:includeFontPadding="false" android:layout_toLeftOf="@id/channel_select_view" android:layout_toRightOf="@id/poly_name_content" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/channel_select_view" android:layout_width="23.0dip" android:layout_height="23.0dip" android:layout_marginRight="4.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_installment_group" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:background="@color/divider_color" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="0.30000007dip" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_instalment_money" android:layout_width="fill_parent" android:layout_height="30.0dip">
+            <TextView android:textSize="@dimen/channel_list_subtitle_text_size" android:textColor="@color/money_color" android:id="@id/tv_installment_total" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="分期金额：" />
+            <TextView android:textSize="@dimen/channel_list_subtitle_text_size" android:textStyle="bold" android:textColor="@color/coupon_subtitle_color" android:id="@id/tv_instalment_money" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+            <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/channel_list_subtitle_text_size" android:textColor="@color/money_color" android:id="@id/tv_service_charge" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_instalment_detail" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <View android:id="@id/line" android:background="@color/divider_color" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="0.30000007dip" />
+</LinearLayout>

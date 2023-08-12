@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0dip" android:textColor="@color/sapi_sdk_common_select_dialog_item_text_color" android:gravity="center" android:id="@id/sapi_sdk_take_photo" android:background="@drawable/sapi_sdk_option_top_round_bg_selector" android:layout_width="fill_parent" android:layout_height="42.0dip" android:text="拍摄" />
+    <View android:id="@id/sapi_sdk_take_photo_bottom_line" android:background="@color/sapi_sdk_addr_edit_input_bottom_line_bg_color" android:layout_width="fill_parent" android:layout_height="0.39999998dip" />
+    <TextView android:textSize="14.0dip" android:textColor="@color/sapi_sdk_common_select_dialog_item_text_color" android:gravity="center" android:id="@id/sapi_sdk_choose_img" android:background="@drawable/sapi_sdk_option_common_bg_selector" android:layout_width="fill_parent" android:layout_height="42.0dip" android:text="从相册选择" />
+    <View android:id="@id/sapi_sdk_choose_img_bottom_line" android:background="@color/sapi_sdk_addr_list_dialog_divider_bg_color" android:layout_width="fill_parent" android:layout_height="8.0dip" />
+    <TextView android:textSize="14.0dip" android:textColor="@color/sapi_sdk_common_select_dialog_item_text_color" android:gravity="center" android:id="@id/sapi_sdk_option_cancel" android:background="@drawable/sapi_sdk_option_common_bg_selector" android:layout_width="fill_parent" android:layout_height="42.0dip" android:text="取消" />
+</LinearLayout>

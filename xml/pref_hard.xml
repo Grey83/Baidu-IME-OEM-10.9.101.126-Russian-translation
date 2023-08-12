@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/settings_hard_keyboard" android:key="@string/pref_key_hard_keyboard" baidu:canSearch="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:baidu="http://schemas.android.com/apk/res-auto">
+    <com.baidu.input.pref.ImeCheckBoxPreference android:title="是否启用实体键盘" android:key="@string/pref_key_HASHARD" android:defaultValue="true" android:summaryOn="触摸屏+键盘" android:summaryOff="仅触摸屏" />
+    <com.baidu.input.pref.FileListPref android:title="键盘类型" android:key="@string/pref_key_BDT4" android:dependency="HASHARD" android:defaultValue="@string/label_def" />
+    <com.baidu.input.pref.SeekBarPref android:title="字体大小" android:key="@string/pref_key_CANDSIZE" android:dependency="HASHARD" android:defaultValue="2" />
+    <com.baidu.input.pref.ImeCheckBoxPreference android:title="中文面板输入显示" android:key="@string/pref_key_HARDINPUT" android:dependency="HASHARD" android:defaultValue="false" android:summaryOn="置于面板顶部" android:summaryOff="下划线显示" />
+</PreferenceScreen>

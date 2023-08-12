@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/settings_advanced" android:key="@string/pref_key_advanced_setting" baidu:canSearch="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:baidu="http://schemas.android.com/apk/res-auto">
+    <com.baidu.input.pref.ImePreference android:title="@string/front_game_board" android:key="@string/pref_key_game_board_setting" />
+    <com.baidu.input.pref.ImePreference android:title="@string/front_quick_access" android:key="@string/pref_key_floatwindow" />
+    <com.baidu.input.pref.ImeCheckBoxPreference android:title="启用双拼" android:key="@string/pref_key_shuangpin" android:defaultValue="false" android:summaryOn="使用双拼模式" android:summaryOff="使用全拼模式" />
+    <com.baidu.input.pref.ImePreference android:title="管理双拼方案" android:key="@string/pref_key_shuangpin_case_root" android:dependency="@string/pref_key_shuangpin" />
+    <com.baidu.input.pref.ImePreference android:title="管理个性短语" android:key="@string/pref_key_phrase" android:summary="编辑　导入" />
+    <com.baidu.input.pref.ImePreference android:title="管理符号文件" android:key="@string/pref_key_fuhao_files_root" />
+    <com.baidu.input.pref.ImePreference android:title="管理自定义输入方案" android:key="@string/pref_key_custom_config_case_root" />
+    <com.baidu.input.pref.ImeCheckBoxPreference android:title="@string/smart_predict_title" android:key="@string/pref_key_smart_reply" android:defaultValue="false" />
+    <com.baidu.input.pref.ImeCheckBoxPreference android:title="@string/sentence_predict_title" android:key="@string/pref_key_sentence_prediction" android:defaultValue="true" />
+    <com.baidu.input.pref.ImeCheckBoxPreference android:title="搜索建议" android:key="@string/pref_key_sug_local_switch" android:summary="提供精准搜索建议候选词，减少按键次数" android:defaultValue="true" />
+    <com.baidu.input.pref.ImeCheckBoxPreference android:title="场景化智能推荐" android:key="@string/pref_key_unique_result_switch" android:summary="各场景下输入法顶部的卡片推荐" android:defaultValue="true" />
+    <com.baidu.input.pref.ImeCheckBoxPreference android:title="提取短信验证码" android:key="@string/pref_key_sms_code" android:summary="收到短信验证码自动提取，点击直接上屏，需要短信权限" android:defaultValue="false" />
+    <com.baidu.input.pref.CustListPref android:entries="@array/privacy_mode_title" android:title="模式设置" android:key="@string/pref_key_privacy_mode" android:defaultValue="0" android:entryValues="@array/privacy_mode_value" />
+    <com.baidu.input.pref.ImePreference android:title="恢复默认设置" android:key="@string/pref_key_default_setting" android:summary="一键恢复所有设置项" />
+</PreferenceScreen>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/poly_sdk_bank_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ListView android:id="@id/poly_sdk_bank_list_view" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="0.0dip" android:listSelector="@android:color/transparent" android:divider="@null" android:dividerHeight="0.0dip" android:layout_weight="1.0" android:overScrollMode="never" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/poly_sp_13" android:textColor="@color/subtitle_color" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/poly_sdk_choose_other_bank" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="46.0dip" android:text="选择其他数字钱包" android:drawableRight="@drawable/more" />
+            <com.baidu.poly.widget.ProgressButton android:gravity="center" android:id="@id/poly_sdk_digital_bank_pay" android:background="@drawable/pay_view_bg" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="17.0dip" android:layout_marginRight="17.0dip" android:layout_marginBottom="17.0dip" android:layout_marginHorizontal="17.0dip" app:textColor="#ffffffff" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

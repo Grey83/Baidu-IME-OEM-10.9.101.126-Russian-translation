@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:key="@string/pref_key_floatwindow"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.baidu.input.pref.ImePreferenceCategory android:title="@string/front_quick_note" android:key="@string/pref_key_front_quick_note">
+        <com.baidu.input.pref.ImePreference android:title="@string/front_mynotes" android:key="@string/pref_key_front_mynotes" />
+        <com.baidu.input.pref.ImeCheckBoxPreference android:title="开启桌面浮窗" android:key="@string/pref_key_float_allow_icon" android:defaultValue="@bool/is_open" />
+        <com.baidu.input.pref.ImeCheckBoxPreference android:title="屏幕侧滑打开浮窗" android:key="@string/pref_key_float_allow_fling" android:defaultValue="@bool/is_open" />
+        <com.baidu.input.pref.ImeListPreference android:entries="@array/floatwindow_positions" android:title="浮窗位置" android:key="@string/pref_key_float_stick_left" android:defaultValue="false" android:entryValues="@array/floatwindow_position_indexs" />
+    </com.baidu.input.pref.ImePreferenceCategory>
+    <com.baidu.input.pref.ImePreference android:title="MIUI下如何开启" android:key="@string/pref_key_float_open_miui" />
+    <com.baidu.input.pref.ImePreferenceCategory android:title="@string/front_note_backup_recovery" android:key="@string/pref_key_float_note_backup_recovery">
+        <com.baidu.input.pref.NoteBackupPref android:title="@string/front_note_backup" android:key="@string/pref_key_float_note_backup" />
+        <com.baidu.input.pref.NoteRecoverPref android:title="@string/front_note_recovery" android:key="@string/pref_key_float_note_recovery" />
+    </com.baidu.input.pref.ImePreferenceCategory>
+    <com.baidu.input.pref.ImePreferenceCategory android:title="@string/clipboard_setting_title" android:key="@string/pref_key_clipboard_setting">
+        <com.baidu.input.pref.ImeCheckBoxPreference android:title="@string/clipboard_setting_enable" android:key="@string/pref_key_clipboard_setting_enable" android:defaultValue="@bool/is_open" />
+        <com.baidu.input.pref.ImeCheckBoxPreference android:title="@string/clipboard_setting_show_in_cand" android:key="@string/pref_key_clipboard_setting_show_in_cand" android:defaultValue="@bool/is_open" />
+        <com.baidu.input.pref.ImeCheckBoxPreference android:title="@string/clipboard_setting_shopping_info_mask" android:key="@string/pref_key_clipboard_setting_shopping_info_mask" android:defaultValue="@bool/is_open" />
+        <com.baidu.input.pref.ImeCheckBoxPreference android:title="开启通知栏剪贴板 " android:key="@string/pref_key_float_allow_notification" android:defaultValue="@bool/is_open" />
+    </com.baidu.input.pref.ImePreferenceCategory>
+    <com.baidu.input.pref.ImePreferenceCategory android:title="@string/front_quick_notification" android:key="@string/pref_key_front_quick_notification">
+        <com.baidu.input.pref.ImeCheckBoxPreference android:title="显示通知栏输入法图标" android:key="@string/pref_key_float_input_status_icon" android:defaultValue="true" />
+    </com.baidu.input.pref.ImePreferenceCategory>
+</PreferenceScreen>

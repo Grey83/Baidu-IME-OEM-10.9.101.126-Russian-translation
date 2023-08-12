@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/poly_sdk_layout_agree_result" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="0.65" />
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:background="@drawable/pop_window_bg" android:layout_width="288.0dip" android:layout_height="wrap_content">
+            <TextView android:textSize="17.0sp" android:textStyle="bold" android:textColor="@color/money_color" android:ellipsize="end" android:layout_gravity="center_horizontal" android:id="@id/poly_notice_dialog_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="26.0dip" android:layout_marginBottom="21.0dip" android:text="小额免密支付开通成功" android:lines="1" />
+            <RelativeLayout android:layout_gravity="center_horizontal" android:paddingLeft="21.0dip" android:paddingRight="21.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="37.0dip" android:paddingHorizontal="21.0dip">
+                <TextView android:textSize="14.0sp" android:textColor="@color/pop_tips_content_color" android:ellipsize="end" android:gravity="center" android:id="@id/poly_notice_dialog_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="可前往百度APP-我的-设置-支付设置-小额免密支付中管理已签约的项目" android:maxLines="4" android:layout_centerHorizontal="true" android:lineSpacingExtra="1.0dip" />
+            </RelativeLayout>
+            <View android:background="#ffeeeeee" android:layout_width="fill_parent" android:layout_height="0.30000007dip" />
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="42.0dip">
+                <TextView android:textSize="16.0sp" android:textColor="#ff4e6ef2" android:gravity="center" android:layout_gravity="center" android:id="@id/poly_notice_known_single_btn" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="我知道了" android:includeFontPadding="false" />
+            </FrameLayout>
+        </LinearLayout>
+    </FrameLayout>
+</FrameLayout>

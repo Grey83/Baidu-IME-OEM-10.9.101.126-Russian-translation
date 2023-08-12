@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/settings_update" android:key="@string/pref_key_update" baidu:canSearch="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:baidu="http://schemas.android.com/apk/res-auto">
+    <com.baidu.input.pref.ImePreference android:title="输入法升级" android:key="@string/pref_key_IMEUPDATE" />
+    <com.baidu.input.pref.ImeCheckBoxPreference android:title="自动检测更新" android:key="@string/pref_key_AUTOUP" android:defaultValue="true" />
+    <com.baidu.input.pref.ImeCheckBoxPreference android:title="WiFi环境自动下载" android:key="@string/pref_key_WIFI_AUTO_DOWN" android:dependency="AUTOUP" android:defaultValue="true" />
+</PreferenceScreen>

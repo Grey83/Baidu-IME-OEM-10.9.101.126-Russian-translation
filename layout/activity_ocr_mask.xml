@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.baidu.input.ime.ocr.ui.mask.RectMaskView android:id="@id/rect_mask" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.baidu.input.ime.ocr.ui.mask.PaintMaskView android:id="@id/paint_mask" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:background="@color/ocr_camera_header_bg" android:paddingBottom="1.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/ocr_tool_bar">
+            <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                <com.baidu.input.ime.ocr.ui.MaskIndicateView android:textSize="16.0sp" android:textColor="@color/ocr_mask_indicate_text_color" android:gravity="center" android:id="@id/indicate_rect_mask" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/ocr_mask_name_rect" app:line_color="@color/ocr_mask_indicate_line_color" />
+                <com.baidu.input.ime.ocr.ui.MaskIndicateView android:textSize="16.0sp" android:textColor="@color/ocr_mask_indicate_text_color" android:gravity="center" android:id="@id/indicate_paint_mask" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="33.0dip" android:text="@string/ocr_mask_name_paint" app:line_color="@color/ocr_mask_indicate_line_color" />
+            </LinearLayout>
+        </FrameLayout>
+        <FrameLayout android:id="@id/mask_container" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <com.baidu.input.ime.ocr.ui.OcrTranslateTempResultView android:layout_gravity="bottom" android:id="@id/ocr_translate_temp_result" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <ViewStub android:layout_gravity="center" android:id="@id/view_sub_ocr_paint_mask_guide" android:layout="@layout/view_ocr_paint_mask_guide_animation" android:layout_width="197.0dip" android:layout_height="150.0dip" />
+        </FrameLayout>
+        <FrameLayout android:background="@color/ocr_camera_header_bg" android:layout_width="fill_parent" android:layout_height="@dimen/ocr_bottom_bar">
+            <LinearLayout android:gravity="center" android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/re_camera_btn" android:padding="13.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="47.0dip">
+                <ImageView android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ocr_re_camera_selector" android:scaleType="centerInside" />
+                <com.baidu.input.acgfont.ImeTextView android:textSize="12.0sp" android:textColor="@color/ocr_gallery_name_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:text="@string/ocr_re_camera" />
+            </LinearLayout>
+            <com.baidu.input.acgfont.ImeTextView android:textStyle="bold" android:textColor="@color/ocr_scan_btn" android:gravity="center" android:layout_gravity="center" android:id="@id/mask_done_btn" android:background="@drawable/ocr_scan_selector" android:layout_width="70.0dip" android:layout_height="70.0dip" android:scaleType="centerInside" android:text="扫描" />
+            <LinearLayout android:gravity="center" android:layout_gravity="center|right" android:orientation="vertical" android:id="@id/mask_all_btn" android:padding="13.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="36.0dip">
+                <ImageView android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ocr_mask_all_selector" android:scaleType="centerInside" />
+                <com.baidu.input.acgfont.ImeTextView android:textSize="12.0sp" android:textColor="@color/ocr_gallery_name_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:text="@string/ocr_mask_all" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/scan_ing" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:background="@color/ocr_camera_header_bg" android:paddingBottom="1.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/ocr_tool_bar" />
+        <FrameLayout android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <com.baidu.input.ime.ocr.ui.ScanLineView android:id="@id/scan_line" android:layout_width="fill_parent" android:layout_height="48.0dip" />
+        </FrameLayout>
+        <com.baidu.input.acgfont.ImeTextView android:textSize="17.0sp" android:textColor="@android:color/white" android:gravity="center" android:background="@color/ocr_camera_header_bg" android:layout_width="fill_parent" android:layout_height="90.0dip" android:text="@string/ocr_scan_ing" />
+    </LinearLayout>
+</merge>

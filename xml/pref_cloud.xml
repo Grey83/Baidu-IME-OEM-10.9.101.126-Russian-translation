@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/settings_cloud_backup" android:key="@string/pref_key_cloud_backup" baidu:canSearch="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:baidu="http://schemas.android.com/apk/res-auto">
+    <com.baidu.input.pref.ImePreferenceCategory android:title="网络用户词管理" android:key="@string/pref_key_cloud_user_ciku_root">
+        <com.baidu.input.pref.SynNetWorkCiKuPref android:title="立即同步用户词" android:key="@string/pref_key_CIKUNETWORKSYN" />
+        <com.baidu.input.pref.NetCikuSetPref android:title="同步用户词设置" android:key="@string/pref_key_CIKUPCIMPORT" />
+        <com.baidu.input.pref.ImeCheckBoxPreference android:title="WiFi下自动同步用户词" android:key="@string/pref_key_auto_syn_userciku_in_wifi" android:defaultValue="true" />
+        <com.baidu.input.pref.CleanNetWorkCiKuPref android:title="清空用户词" android:key="@string/pref_key_CIKUNETWORKCLEAN" />
+    </com.baidu.input.pref.ImePreferenceCategory>
+</PreferenceScreen>

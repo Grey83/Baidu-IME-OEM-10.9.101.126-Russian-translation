@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingTop="3.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:paddingLeft="29.0dip" android:paddingRight="29.0dip" android:layout_width="fill_parent" android:layout_height="46.0dip">
+        <EditText android:textSize="17.0dip" android:textColor="#ff1f1f1f" android:textColorHint="#e6b8b8b8" android:gravity="center" android:id="@id/sapi_sdk_et_login_dialog_phone_input" android:background="@drawable/pass_quick_login_dialog_sms_input_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:hint="请输入手机号" android:maxLength="11" android:inputType="number" />
+        <ImageView android:layout_gravity="center|right" android:id="@id/sapi_sdk_iv_login_dialog_phone_clear" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="17.0dip" android:src="@drawable/sapi_sdk_icon_login_dialog_sms_input_clear" />
+    </FrameLayout>
+    <com.baidu.sapi2.views.logindialog.view.LoginComfirmButton android:textSize="17.0dip" android:textColor="#ffffffff" android:gravity="center" android:id="@id/sapi_sdk_tv_login_dialog_send_sms" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="46.0dip" android:layout_marginLeft="29.0dip" android:layout_marginTop="17.0dip" android:layout_marginRight="29.0dip" android:text="获取短信验证码" />
+    <TextView android:textSize="11.0dip" android:textColor="#ffff3333" android:layout_gravity="center_horizontal" android:id="@id/sapi_sdk_tv_error_tip" android:paddingTop="3.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="20.0dip" android:text="获取短信验证码次数过多，请稍后再试" />
+</LinearLayout>

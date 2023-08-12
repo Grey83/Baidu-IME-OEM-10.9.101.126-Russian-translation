@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.baidu.pass.ecommerce.common.view.TitleBarView android:id="@id/sapi_sdk_map_location_poi_title" android:background="@drawable/sapi_sdk_title_bar_bg" android:layout_width="fill_parent" android:layout_height="40.0dip" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.baidu.mapapi.map.MapView android:id="@id/sapi_sdk_location_poi_map_view" android:clickable="true" android:layout_width="fill_parent" android:layout_height="340.0dip" android:layout_marginTop="-100.0dip" />
+        <FrameLayout android:id="@id/sapi_loc_map_marker_view" android:layout_width="fill_parent" android:layout_height="340.0dip" android:layout_marginTop="-100.0dip">
+            <ImageView android:layout_gravity="center" android:layout_width="39.0dip" android:layout_height="39.0dip" android:src="@drawable/sapi_sdk_map_location_marker" />
+        </FrameLayout>
+        <RelativeLayout android:id="@id/sapi_loc_map_controller_view" android:layout_width="fill_parent" android:layout_height="340.0dip" android:layout_marginTop="-100.0dip">
+            <ImageView android:id="@id/sapi_sdk_map_loc_btn" android:background="@drawable/sapi_sdk_map_option_btn_bg" android:padding="10.0dip" android:layout_width="39.0dip" android:layout_height="39.0dip" android:layout_marginLeft="8.0dip" android:layout_marginBottom="130.0dip" android:src="@drawable/sapi_sdk_map_loc_btn_ic" android:layout_alignParentBottom="true" android:layout_centerVertical="true" />
+            <ImageView android:layout_width="55.0dip" android:layout_height="17.0dip" android:layout_marginLeft="8.0dip" android:layout_marginBottom="105.0dip" android:src="@drawable/sapi_sdk_map_logo_icon" android:layout_alignParentBottom="true" android:layout_centerVertical="true" />
+            <LinearLayout android:orientation="vertical" android:background="@drawable/sapi_sdk_map_option_btn_bg" android:layout_width="40.0dip" android:layout_height="80.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="125.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true">
+                <ImageView android:id="@id/sapi_sdk_map_zoom_in_btn" android:padding="13.0dip" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/sapi_sdk_map_zoom_in_btn_icon" android:layout_alignParentBottom="true" android:layout_centerVertical="true" />
+                <ImageView android:id="@id/sapi_sdk_map_zoom_out_btn" android:padding="13.0dip" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/sapi_sdk_map_zoom_out_btn_icon" android:layout_alignParentBottom="true" android:layout_centerVertical="true" />
+            </LinearLayout>
+        </RelativeLayout>
+        <View android:id="@id/sapi_loc_map_shape_mask" android:background="@color/sapi_sdk_dark_shape_view_bg_50" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="340.0dip" android:layout_marginTop="-100.0dip" />
+        <com.baidu.pass.ecommerce.view.ScrollLayout android:id="@id/sapi_sdk_scroll_layout" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <FrameLayout android:orientation="vertical" android:id="@id/sapi_sdk_addr_query_panel" android:background="@drawable/sapi_sdk_addr_map_scroll_layout_bg" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <com.baidu.pass.ecommerce.view.ScrollRecyclerView android:id="@id/sapi_sdk_recycler_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <include android:id="@id/sapi_sdk_search_box" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/layout_sapi_sdk_addr_map_searchbox" />
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/sapi_sdk_map_addr_list_loading" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingHorizontal="15.0dip">
+                    <ProgressBar android:layout_width="50.0dip" android:layout_height="50.0dip" android:indeterminateDrawable="@drawable/sapi_sdk_common_loading" android:layout_centerVertical="true" />
+                    <TextView android:textSize="14.0dip" android:textColor="@color/sapi_sdk_addr_edit_custom_tag_no_checked_text_color" android:id="@id/sapi_sdk_map_addr_loading_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="11.0dip" android:text="加载中" android:layout_toRightOf="@id/sapi_sdk_toast_msg_icon" android:layout_centerVertical="true" />
+                </LinearLayout>
+                <TextView android:textColor="@color/sapi_sdk_addr_map_search_empty_color" android:gravity="center" android:id="@id/sapi_sdk_map_addr_empty_notice" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="暂无搜索结果" />
+            </FrameLayout>
+        </com.baidu.pass.ecommerce.view.ScrollLayout>
+        <com.baidu.sapi2.views.SweepLightLoadingView android:id="@id/sapi_sdk_addr_loading_view" android:background="@color/sapi_sdk_addr_list_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+</LinearLayout>

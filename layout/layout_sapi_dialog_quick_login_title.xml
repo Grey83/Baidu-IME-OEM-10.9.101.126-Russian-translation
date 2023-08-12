@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="55.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center|left" android:id="@id/sapi_sdk_back_view" android:visibility="gone" android:layout_width="19.0dip" android:layout_height="19.0dip" android:layout_marginLeft="16.0dip" android:src="@drawable/sapi_sdk_icon_quick_login_dialog_back" android:layout_marginStart="16.0dip" />
+    <TextView android:textSize="16.0dip" android:textStyle="bold" android:textColor="#ff1f1f1f" android:layout_gravity="center" android:id="@id/sapi_sdk_tv_title_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="登录你的百度，精彩永相随" />
+    <ImageView android:layout_gravity="center|right" android:id="@id/sapi_sdk_close_view" android:layout_width="19.0dip" android:layout_height="19.0dip" android:layout_marginRight="16.0dip" android:src="@drawable/sapi_sdk_icon_quick_login_dialog_close" android:layout_marginEnd="16.0dip" />
+</FrameLayout>

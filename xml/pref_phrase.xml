@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:key="@string/pref_key_phrase"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.baidu.input.pref.ImeCheckBoxPreference android:title="开启个性短语" android:key="@string/pref_key_PHRASE" android:defaultValue="true" />
+    <com.baidu.input.pref.ImePreference android:title="编辑个性短语" android:key="@string/pref_key_ci_edit" android:dependency="PHRASE" />
+    <com.baidu.input.pref.ImePreference android:title="导出个性短语" android:key="@string/pref_key_expt5" android:dependency="PHRASE" />
+    <com.baidu.input.pref.ImePreference android:title="导入个性短语" android:key="@string/pref_key_impt5" android:dependency="PHRASE" />
+    <com.baidu.input.pref.CustListPref android:entries="@array/CPIDXNAME" android:title="设置个性短语位置" android:key="@string/pref_key_CPIDX" android:dependency="PHRASE" android:defaultValue="3" android:dialogTitle="选择个性短语展现位置" android:entryValues="@array/CPIDXVALUE" />
+</PreferenceScreen>

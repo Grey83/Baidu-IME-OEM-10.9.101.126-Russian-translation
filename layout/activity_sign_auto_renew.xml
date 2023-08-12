@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="16.0dip" android:textColor="@color/cashiersdk_common_dialog_title_text_color" android:gravity="center" android:layout_width="fill_parent" android:layout_height="38.0dip" android:text="支付结果" />
+    <FrameLayout android:id="@id/poly_sign_renew_tip_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <TextView android:textSize="15.0dip" android:textColor="@color/cashiersdk_common_dialog_title_text_color" android:gravity="center" android:id="@id/poly_sign_renew_notice" android:paddingLeft="81.0dip" android:paddingRight="81.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="请点击下方按钮重新查询\n并留意微信支付扣款信息" />
+        <TextView android:textSize="15.0dip" android:textColor="@color/cashiersdk_common_dialog_title_text_color" android:id="@id/poly_sign_renew_success" android:paddingLeft="35.0dip" android:paddingRight="35.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="你已开通自动续费。请稍后留意微信支付扣款信息，你可以在百度APP “我的-设置-支付设置-自动续费”中管理自动续费服务" />
+    </FrameLayout>
+    <TextView android:textSize="18.0dip" android:textStyle="bold" android:textColor="@color/cashiersdk_common_dialog_title_text_color" android:gravity="center" android:id="@id/poly_sign_renew_status" android:paddingLeft="81.0dip" android:paddingRight="81.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="35.0dip" android:text="开通结果查询中" android:layout_above="@id/poly_sign_renew_tip_layout" />
+    <ImageView android:id="@id/poly_sign_renew_status_img" android:layout_width="78.0dip" android:layout_height="78.0dip" android:layout_marginBottom="26.0dip" android:src="@drawable/wechat_sign_query_doing" android:layout_above="@id/poly_sign_renew_status" android:layout_centerHorizontal="true" />
+    <ImageView android:id="@id/poly_sign_auto_renew_back_btn" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="20.0dip" android:layout_marginBottom="11.0dip" android:src="@drawable/wechat_sign_bottom_back" android:layout_alignParentBottom="true" />
+    <View android:background="#ffeeeeee" android:layout_width="fill_parent" android:layout_height="0.30000007dip" android:layout_marginBottom="11.0dip" android:layout_above="@id/poly_sign_auto_renew_back_btn" />
+    <FrameLayout android:paddingLeft="30.0dip" android:paddingRight="30.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="61.0dip" android:layout_above="@id/poly_sign_auto_renew_back_btn">
+        <LinearLayout android:orientation="vertical" android:id="@id/poly_sign_auto_renew_query_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.baidu.poly.widget.ProgressButton android:gravity="center" android:id="@id/poly_query_sign_renew_status" android:background="@drawable/pay_view_bg" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_below="@id/channel_list_scroll_view" app:textColor="#ffffffff" />
+            <TextView android:textSize="18.0dip" android:gravity="center" android:id="@id/poly_back_business_page" android:background="@drawable/poly_sdk_pay_back_view_bg" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginTop="11.0dip" android:text="返回商家页面" />
+        </LinearLayout>
+        <com.baidu.poly.widget.ProgressButton android:gravity="center" android:layout_gravity="bottom" android:id="@id/poly_sign_renew_confirm" android:background="@drawable/pay_view_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="40.0dip" app:textColor="#ffffffff" />
+    </FrameLayout>
+</RelativeLayout>

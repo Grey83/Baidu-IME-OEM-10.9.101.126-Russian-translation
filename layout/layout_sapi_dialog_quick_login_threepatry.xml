@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/sapi_sdk_ll_other_login_type_tip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="30.0dip">
+        <View android:background="#ffb8b8b8" android:layout_width="25.0dip" android:layout_height="0.30000007dip" />
+        <TextView android:textSize="10.0dip" android:textColor="#ffb8b8b8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:text="其他登录方式" />
+        <View android:background="#ffb8b8b8" android:layout_width="25.0dip" android:layout_height="0.30000007dip" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="30.0dip">
+        <ImageView android:id="@id/sapi_sdk_iv_third_party_wechat" android:visibility="gone" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginRight="26.0dip" android:src="@drawable/sapi_sdk_icon_quick_login_third_wechat" android:layout_marginEnd="26.0dip" />
+        <ImageView android:id="@id/sapi_sdk_iv_third_party_qq" android:visibility="gone" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginRight="26.0dip" android:src="@drawable/sapi_sdk_icon_quick_login_third_qq" android:layout_marginEnd="26.0dip" />
+        <ImageView android:id="@id/sapi_sdk_iv_third_party_sina" android:visibility="gone" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginRight="26.0dip" android:src="@drawable/sapi_sdk_icon_quick_login_third_sina" android:layout_marginEnd="26.0dip" />
+        <ImageView android:id="@id/sapi_sdk_iv_third_party_yy" android:visibility="gone" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginRight="26.0dip" android:src="@drawable/sapi_sdk_icon_quick_login_third_yy" android:layout_marginEnd="26.0dip" />
+        <ImageView android:id="@id/sapi_sdk_iv_third_party_huawei" android:visibility="gone" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginRight="26.0dip" android:src="@drawable/sapi_sdk_icon_quick_login_third_huawei" android:layout_marginEnd="26.0dip" />
+        <ImageView android:id="@id/sapi_sdk_iv_third_party_honor" android:visibility="gone" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginRight="26.0dip" android:src="@drawable/sapi_sdk_icon_quick_login_third_honor" android:layout_marginEnd="26.0dip" />
+        <ImageView android:id="@id/sapi_sdk_iv_third_party_xiaomi" android:visibility="gone" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginRight="26.0dip" android:src="@drawable/sapi_sdk_icon_quick_login_third_xiaomi" android:layout_marginEnd="26.0dip" />
+        <ImageView android:id="@id/sapi_sdk_iv_third_party_meizu" android:visibility="gone" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginRight="26.0dip" android:src="@drawable/sapi_sdk_icon_quick_login_third_meizu" android:layout_marginEnd="26.0dip" />
+        <ImageView android:id="@id/sapi_sdk_iv_third_party_more" android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@drawable/sapi_sdk_icon_quick_login_third_more" />
+    </LinearLayout>
+</LinearLayout>

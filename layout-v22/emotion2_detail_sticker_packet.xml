@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/ll_container" android:background="@drawable/emotion2_single_detail_packet_bg_t" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:layout_centerHorizontal="true">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/emotion2_single_detail_right_star_t" />
+            <com.baidu.input.acgfont.ImeTextView android:textSize="16.0sp" android:textColor="#ff222222" android:ellipsize="end" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" android:layout_marginRight="9.0dip" android:maxLines="1" android:maxLength="25" android:layout_marginHorizontal="9.0dip" />
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/emotion2_single_detail_left_star_t" />
+        </LinearLayout>
+        <com.baidu.input.acgfont.ImeTextView android:textSize="12.0sp" android:textColor="#664e5158" android:id="@id/tv_more" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="11.0dip" android:layout_marginRight="10.0dip" android:text="更多" android:drawableRight="@drawable/emotion2_single_detail_more_t" android:drawablePadding="5.0dip" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/ll_content" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="7.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="7.0dip" android:layout_marginHorizontal="7.0dip" />
+    <LinearLayout android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.baidu.input.acgfont.ImeTextView android:textSize="11.0sp" android:textColor="#ff999999" android:id="@id/tv_author" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.baidu.input.acgfont.ImeTextView android:textColor="#ff999999" android:id="@id/tv_nums" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="10sp" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/settings_ciku" android:key="@string/pref_key_ciku" baidu:canSearch="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:baidu="http://schemas.android.com/apk/res-auto">
+    <com.baidu.input.pref.ImePreference android:title="通讯录词库" android:key="@string/pref_key_CIKULIST" />
+    <com.baidu.input.pref.ImePreference android:title="词库备份与恢复" android:key="@string/pref_key_CIKUBACKUPRECOVER" />
+    <com.baidu.input.pref.ImePreference android:title="云优化" android:key="@string/pref_key_CLOUDOPTIMIZATION" android:summary="联网优化词库使输入更精准" />
+    <com.baidu.input.pref.ImePreference android:title="恢复默认词库" android:key="@string/pref_key_reset1" />
+</PreferenceScreen>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:paddingLeft="29.0dip" android:paddingTop="12.0dip" android:paddingRight="29.0dip" android:layout_width="fill_parent" android:layout_height="150.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/sapi_sdk_view_share_login_shade" android:background="@drawable/pass_quick_login_dialog_share_bg" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="30.0dip" />
+    <FrameLayout android:id="@id/sapi_sdk_fl_share_portrait" android:layout_width="45.0dip" android:layout_height="45.0dip" android:layout_marginLeft="15.0dip" android:layout_marginTop="12.0dip" android:layout_marginStart="15.0dip">
+        <com.baidu.sapi2.views.logindialog.view.CircleImageView android:id="@id/sapi_sdk_civ_share_portrait" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <View android:background="@drawable/pass_quick_login_dialog_portrait_border_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <TextView android:textSize="16.0sp" android:textColor="#ff1f1f1f" android:id="@id/sapi_sdk_civ_share_displayname" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="13.0dip" android:text="" android:layout_toRightOf="@id/sapi_sdk_fl_share_portrait" android:layout_marginStart="10.0dip" android:layout_toEndOf="@id/sapi_sdk_fl_share_portrait" />
+    <TextView android:textSize="11.0sp" android:textColor="#ff858585" android:id="@id/sapi_sdk_civ_share_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="" android:layout_below="@id/sapi_sdk_civ_share_displayname" android:layout_alignLeft="@id/sapi_sdk_civ_share_displayname" android:layout_alignStart="@id/sapi_sdk_civ_share_displayname" />
+    <com.baidu.sapi2.views.logindialog.view.LoginComfirmButton android:textSize="16.0dip" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/sapi_sdk_tv_share_button" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="38.0dip" android:layout_marginTop="20.0dip" android:text="一键登录" android:layout_below="@id/sapi_sdk_fl_share_portrait" />
+</RelativeLayout>

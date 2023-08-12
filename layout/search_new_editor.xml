@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.baidu.input.ime.scene.ui.TranslateEditorBgLinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_editor_contaienr" android:layout_width="0.0dip" android:layout_height="31.329987dip" android:layout_marginLeft="13.0dip" android:layout_weight="1.0">
+        <FrameLayout android:id="@id/rl_select_language" android:layout_width="37.0dip" android:layout_height="fill_parent" android:paddingStart="13.0dip">
+            <FrameLayout android:id="@id/rl_normal" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:id="@id/iv_right_icon" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/translate_right_icon_t" />
+                <com.baidu.input.acgfont.ImeTextView android:textSize="10.0dip" android:textColor="#ffffffff" android:layout_gravity="center_vertical" android:id="@id/tv_target_language" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="英" android:maxLines="1" android:maxEms="1" />
+                <ImageView android:id="@id/iv_left_icon" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/translate_left_icon_t" />
+                <com.baidu.input.acgfont.ImeTextView android:textSize="10.0dip" android:textColor="#ffffffff" android:layout_gravity="center_vertical" android:id="@id/tv_src_language" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:text="中" android:maxLines="1" android:maxEms="1" />
+            </FrameLayout>
+            <FrameLayout android:id="@id/rl_auto" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:id="@id/iv_auto_icon" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="2.0dip" android:src="@drawable/translate_select_auto_t" />
+                <com.baidu.input.acgfont.ImeTextView android:textSize="10.329987dip" android:textColor="@color/white" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="自动" />
+            </FrameLayout>
+        </FrameLayout>
+        <ImageView android:id="@id/iv_editor_down_arrow" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="15.669983dip" android:layout_height="fill_parent" android:src="@drawable/translate_down_arrow_t" />
+        <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <com.baidu.input.ime.scene.ui.SearchEditor2 android:textSize="13.0dip" android:gravity="center_vertical" android:layout_gravity="center" android:id="@id/editor" android:paddingRight="26.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" app:cursorColor="#ff478cff" app:cursorWidth="2.0dip" />
+            <ImageView android:layout_gravity="end|center" android:id="@id/iv_refresh" android:visibility="gone" android:layout_width="33.339996dip" android:layout_height="fill_parent" android:src="@drawable/translate_error_refresh_t" android:paddingStart="10.0dip" android:paddingEnd="8.669983dip" />
+            <ImageView android:layout_gravity="end|center" android:id="@id/clear_button" android:visibility="gone" android:layout_width="33.339996dip" android:layout_height="fill_parent" android:src="@drawable/translate_clear_all_t" android:paddingStart="10.0dip" android:paddingEnd="8.669983dip" />
+            <LinearLayout android:gravity="center" android:layout_gravity="end|center" android:id="@id/rl_loading" android:visibility="gone" android:layout_width="14.669983dip" android:layout_height="14.669983dip" android:layout_marginStart="10.0dip" android:layout_marginEnd="8.669983dip">
+                <View android:id="@id/loading_left" android:background="@drawable/translate_loading_left_bg" android:layout_width="3.0dip" android:layout_height="3.0dip" android:layout_marginRight="1.6699829dip" />
+                <View android:id="@id/loading_right" android:background="@drawable/translate_loading_right_bg" android:layout_width="3.0dip" android:layout_height="3.0dip" />
+            </LinearLayout>
+        </FrameLayout>
+    </com.baidu.input.ime.scene.ui.TranslateEditorBgLinearLayout>
+    <ImageView android:id="@id/bt_voice" android:visibility="gone" android:layout_width="21.299988dip" android:layout_height="21.299988dip" android:layout_marginLeft="13.0dip" android:scaleType="centerInside" />
+    <com.baidu.input.acgfont.ImeTextView android:textSize="13.0dip" android:gravity="center" android:layout_gravity="center" android:id="@id/close_search_btn" android:layout_width="58.0dip" android:layout_height="fill_parent" android:scaleType="centerInside" android:text="@string/search_editor_close" />
+</merge>

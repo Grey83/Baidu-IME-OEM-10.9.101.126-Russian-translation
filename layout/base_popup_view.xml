@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/ll_base_popupview" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:id="@id/sv_container" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_content" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <View android:id="@id/split_line" android:background="#ffd9d9d9" android:layout_width="fill_parent" android:layout_height="0.33000004dip" />
+            <RelativeLayout android:id="@id/ll_title" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.baidu.input.acgfont.ImeTextView android:textSize="19.0sp" android:textStyle="bold" android:textColor="#ff2d2f35" android:ellipsize="end" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:maxEms="12" android:layout_centerHorizontal="true" />
+                <com.baidu.input.acgfont.ImeTextView android:textSize="9.0sp" android:textColor="#fff65151" android:id="@id/tv_nums" android:background="@drawable/emotion2_add_emotion_person_num" android:paddingLeft="5.669983dip" android:paddingTop="1.3299866dip" android:paddingRight="5.669983dip" android:paddingBottom="1.3299866dip" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_toRightOf="@id/tv_title" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <com.baidu.input.emotion2.CollapsibleTextView android:textColor="#ff4e5158" android:id="@id/tv_desc" android:layout_width="fill_parent" android:layout_height="wrap_content" app:collapsedText="... 全部" app:expandedText="    收起" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_info" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.baidu.input.emotion.type.ar.base.baseview.RoundLayout android:layout_width="21.329987dip" android:layout_height="21.329987dip" app:attr_round_corner="10.699982dip">
+                    <ImageView android:id="@id/iv_user" android:layout_width="21.329987dip" android:layout_height="21.329987dip" />
+                </com.baidu.input.emotion.type.ar.base.baseview.RoundLayout>
+                <com.baidu.input.acgfont.ImeTextView android:textSize="13.0sp" android:textColor="#ff4e5158" android:ellipsize="end" android:id="@id/tv_info_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:maxEms="12" />
+                <com.baidu.input.acgfont.ImeTextView android:textSize="13.0sp" android:textColor="#ff077dff" android:gravity="right" android:id="@id/tv_source" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minEms="5" android:singleLine="true" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="42.669983dip" android:layout_alignParentBottom="true">
+        <RelativeLayout android:id="@id/rl_add_buttons" android:background="#f2ffffff" android:layout_width="fill_parent" android:layout_height="42.669983dip" android:layout_alignParentBottom="true">
+            <com.baidu.input.emotion2.LockTextView android:textSize="14.0sp" android:textColor="#ffffffff" android:id="@id/tv_add_emotion_collection" android:background="@drawable/emotion2_add_emotion_collection" android:paddingLeft="14.329987dip" android:paddingTop="5.0dip" android:paddingRight="14.329987dip" android:paddingBottom="5.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/ll_share_lock" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                <RelativeLayout android:background="@drawable/emotion2_price_bg" android:layout_width="115.16998dip" android:layout_height="29.669983dip">
+                    <com.baidu.input.emotion2.LockLinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ll_price_lock" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                        <com.baidu.input.acgfont.ImeTextView android:textSize="12.0sp" android:textColor="#ffffffff" android:id="@id/tv_curr_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="￥1.00" />
+                        <com.baidu.input.acgfont.ImeTextView android:textSize="11.0sp" android:textColor="#80ffffff" android:id="@id/tv_old_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="￥6.00" />
+                    </com.baidu.input.emotion2.LockLinearLayout>
+                    <com.baidu.input.emotion2.LockTextView android:textColor="#ffffffff" android:gravity="center" android:id="@id/tv_share_first" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                </RelativeLayout>
+                <com.baidu.input.emotion2.LockTextView android:textColor="#ffffffff" android:gravity="center" android:id="@id/tv_share_second" android:background="@drawable/emotion2_share_bg" android:paddingLeft="17.5dip" android:paddingRight="17.5dip" android:layout_width="wrap_content" android:layout_height="29.669983dip" android:text="分享免单" />
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+    <ImageView android:id="@id/iv_back" android:paddingTop="14.599976dip" android:paddingBottom="10.599976dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/emotion2_close" android:paddingStart="10.599976dip" android:paddingEnd="10.599976dip" android:layout_alignParentStart="true" />
+</RelativeLayout>

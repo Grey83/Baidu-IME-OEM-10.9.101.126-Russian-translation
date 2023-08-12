@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/sapi_layout_bottom_back" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="@dimen/sapi_sdk_title_bottom_back_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/sapi_sdk_bottom_divider_line" android:background="@color/sapi_sdk_title_division_line_color" android:layout_width="fill_parent" android:layout_height="@dimen/sapi_sdk_title_division_line_height" />
+    <ImageView android:id="@id/sapi_bottom_back" android:padding="6.0dip" android:layout_width="31.0dip" android:layout_height="31.0dip" android:layout_marginLeft="16.0dip" android:src="@drawable/sapi_sdk_bottom_back" android:scaleType="fitCenter" android:layout_centerVertical="true" android:contentDescription="@string/sapi_sdk_login_content_des_back" />
+    <TextView android:textSize="18.0dip" android:textColor="@color/sapi_sdk_edit_text_color" android:id="@id/sapi_textview_back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="返回" android:layout_toRightOf="@id/sapi_bottom_back" android:layout_centerVertical="true" />
+</RelativeLayout>

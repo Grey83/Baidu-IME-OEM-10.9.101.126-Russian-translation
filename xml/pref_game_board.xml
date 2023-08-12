@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/front_game_board" android:key="@string/pref_key_game_board_setting" baidu:canSearch="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:baidu="http://schemas.android.com/apk/res-auto">
+    <com.baidu.input.pref.ImePreferenceCategory android:title="@string/front_game_board_added_game" android:key="@string/pref_key_added_game_list" />
+    <com.baidu.input.pref.ImePreferenceCategory android:title="@string/front_game_board_send_setting" android:key="@string/pref_key_send_setting">
+        <com.baidu.input.pref.ImeCheckBoxPreference android:title="@string/front_game_board_corpus_send_switch" android:key="@string/pref_key_game_corpus_send_switch" android:defaultValue="true" />
+        <com.baidu.input.pref.ImeCheckBoxPreference android:title="@string/front_game_board_voice_send_switch" android:key="@string/pref_key_game_voice_send_switch" android:defaultValue="true" />
+    </com.baidu.input.pref.ImePreferenceCategory>
+</PreferenceScreen>

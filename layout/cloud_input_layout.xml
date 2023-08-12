@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/cloud_icon" android:layout_width="@dimen/cloud_word_image_width" android:layout_height="@dimen/cloud_word_image_height" android:layout_marginLeft="@dimen/cloud_word_padding_left" android:layout_marginTop="@dimen/cloud_word_image_padding_top" android:src="@drawable/cloud_icon_t" android:scaleType="fitXY" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <com.baidu.input.acgfont.ImeTextView android:textSize="@dimen/cloud_word_size" android:gravity="center_vertical" android:id="@id/cloud_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cloud_word_padding_middle" android:layout_marginTop="@dimen/cloud_word_padding_top" android:layout_marginRight="@dimen/cloud_word_padding_right" android:layout_marginBottom="@dimen/cloud_word_padding_bottom" android:text="云输入哈哈哈哈" android:layout_toRightOf="@id/cloud_icon" />
+    <com.baidu.input.acgfont.ImeTextView android:textSize="@dimen/cloud_number_size" android:id="@id/number_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" android:layout_toLeftOf="@id/cloud_text" android:layout_alignBottom="@id/cloud_text" />
+</RelativeLayout>
