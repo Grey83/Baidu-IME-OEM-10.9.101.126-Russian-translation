@@ -2,5 +2,5 @@
 <merge android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/sapi_sdk_loading_view" android:layout_width="fill_parent" android:layout_height="210.0dip"
   xmlns:android="http://schemas.android.com/apk/res/android">
     <ProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" android:indeterminateOnly="true" android:indeterminateDrawable="@drawable/sapi_sdk_icon_login_dialog_loading_anim" android:indeterminateBehavior="repeat" />
-    <TextView android:textSize="12.0sp" android:textColor="#ff858585" android:id="@id/sapi_tv_loading_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="11.0dip" android:text="加载中…" />
+    <TextView android:textSize="12.0sp" android:textColor="#ff858585" android:id="@id/sapi_tv_loading_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="11.0dip" android:text="Загрузка..." />
 </merge>

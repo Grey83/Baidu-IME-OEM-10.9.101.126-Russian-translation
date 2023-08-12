@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="通讯录词库" android:key="@string/pref_key_CIKULIST"
+<PreferenceScreen android:title="Контакты Словарь" android:key="@string/pref_key_CIKULIST"
   xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.baidu.input.pref.ImePreference android:title="同步通讯录词库" android:key="@string/pref_key_impt_contact" />
-    <com.baidu.input.pref.ImeCheckBoxPreference android:title="自动同步通讯录到词库" android:key="@string/pref_key_CIKUAUTOIMPORT" android:defaultValue="@bool/is_open" />
+    <com.baidu.input.pref.ImePreference android:title="Синхронизировать контакты" android:key="@string/pref_key_impt_contact" />
+    <com.baidu.input.pref.ImeCheckBoxPreference android:title="Автосинхронизация словаря с контактами" android:key="@string/pref_key_CIKUAUTOIMPORT" android:defaultValue="@bool/is_open" />
 </PreferenceScreen>

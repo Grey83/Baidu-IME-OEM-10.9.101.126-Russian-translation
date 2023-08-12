@@ -7,22 +7,22 @@
                 <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="32.0dip">
                     <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_font_size" android:layout_width="wrap_content" android:layout_height="wrap_content">
                         <ImageView android:id="@id/iv_font_size" android:layout_width="50.0dip" android:layout_height="50.0dip" android:src="@drawable/fonts_size_t" />
-                        <com.baidu.input.acgfont.ImeTextView android:textSize="14.0sp" android:textColor="#ff000000" android:id="@id/tv_font_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="字体大小" />
+                        <com.baidu.input.acgfont.ImeTextView android:textSize="14.0sp" android:textColor="#ff000000" android:id="@id/tv_font_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="Размер" />
                     </LinearLayout>
                     <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_my_font" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="38.329987dip">
                         <FrameLayout android:layout_width="60.0dip" android:layout_height="wrap_content">
                             <ImageView android:layout_gravity="center" android:id="@id/iv_my_font" android:layout_width="50.0dip" android:layout_height="50.0dip" android:src="@drawable/my_font_t" />
                             <ImageView android:layout_gravity="center|right|top" android:id="@id/tv_font_new_notify" android:background="@drawable/shape_font_new_notify_bg" android:visibility="gone" android:layout_width="30.0dip" android:layout_height="12.0dip" android:src="@drawable/ai_font_icon_panel_notify_new" />
                         </FrameLayout>
-                        <com.baidu.input.acgfont.ImeTextView android:textSize="14.0sp" android:textColor="#ff000000" android:id="@id/tv_my_font" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="我的字体" />
+                        <com.baidu.input.acgfont.ImeTextView android:textSize="14.0sp" android:textColor="#ff000000" android:id="@id/tv_my_font" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="Мой" />
                     </LinearLayout>
                     <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_font_shop" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="38.329987dip">
                         <ImageView android:id="@id/iv_font_shop" android:layout_width="50.0dip" android:layout_height="50.0dip" android:src="@drawable/font_shop_t" />
-                        <com.baidu.input.acgfont.ImeTextView android:textSize="14.0sp" android:textColor="#ff000000" android:id="@id/tv_font_shop" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="字体商城" />
+                        <com.baidu.input.acgfont.ImeTextView android:textSize="14.0sp" android:textColor="#ff000000" android:id="@id/tv_font_shop" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="Магазин" />
                     </LinearLayout>
                 </LinearLayout>
                 <RelativeLayout android:id="@id/rl_rec_font" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="36.0dip">
-                    <com.baidu.input.acgfont.ImeTextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="#ff000000" android:id="@id/tv_rec_font" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="推荐字体" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+                    <com.baidu.input.acgfont.ImeTextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="#ff000000" android:id="@id/tv_rec_font" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Рекомендуемое" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
                     <ImageView android:id="@id/iv_font_more" android:layout_width="16.299988dip" android:layout_height="10.899994dip" android:src="@drawable/more_font_2_t" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
                 </RelativeLayout>
                 <LinearLayout android:orientation="horizontal" android:id="@id/ll_rec_fonts" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip">

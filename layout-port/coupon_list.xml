@@ -3,7 +3,7 @@
   xmlns:android="http://schemas.android.com/apk/res/android">
     <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/coupon_layout" android:background="@drawable/popup_view_bg" android:layout_width="fill_parent" android:layout_height="fill_parent">
         <FrameLayout android:id="@id/cashier_fl_title_content" android:background="@drawable/oval_top_left_right" android:layout_width="fill_parent" android:layout_height="@dimen/title_height">
-            <TextView android:textSize="@dimen/title_size" android:textStyle="bold" android:textColor="#ff000000" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/title_top_margin" android:text="选择优惠券" android:includeFontPadding="false" />
+            <TextView android:textSize="@dimen/title_size" android:textStyle="bold" android:textColor="#ff000000" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/title_top_margin" android:text="Выберите купон" android:includeFontPadding="false" />
             <ImageView android:layout_gravity="center|left" android:id="@id/back" android:padding="3.0dip" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="12.0dip" android:layout_marginTop="@dimen/title_top_margin" android:src="@drawable/icon_back" android:scaleType="fitXY" />
         </FrameLayout>
         <View android:background="#ffe0e0e0" android:layout_width="fill_parent" android:layout_height="0.30000007dip" />

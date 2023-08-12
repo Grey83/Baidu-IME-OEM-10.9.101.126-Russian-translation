@@ -6,7 +6,7 @@
         <View android:layout_gravity="bottom" android:background="@drawable/abs_bottom_pop_title_shadow" android:layout_width="fill_parent" android:layout_height="2.0px" android:layout_alignParentBottom="true" />
         <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/pre_btn" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="15.0dip">
             <ImageView android:layout_width="wrap_content" android:layout_height="14.0sp" android:src="@drawable/float_mode_edit_arrow" android:tint="@color/abs_bottom_pop_ok_button_normal" android:rotation="180.0" />
-            <com.baidu.input.acgfont.ImeTextView android:textSize="14.0sp" android:textColor="@color/abs_bottom_pop_ok_button_normal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" 选择相册" />
+            <com.baidu.input.acgfont.ImeTextView android:textSize="14.0sp" android:textColor="@color/abs_bottom_pop_ok_button_normal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Выбрать альбом" />
         </LinearLayout>
     </RelativeLayout>
     <com.baidu.input.ime.smartreply.imagepick.ImageFolderList android:id="@id/image_folder_list" android:background="#fff5f5f7" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/bottom_btns" android:layout_below="@id/pop_title" />

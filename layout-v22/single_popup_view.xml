@@ -11,20 +11,20 @@
             <LinearLayout android:orientation="horizontal" android:id="@id/ll_oprs" android:layout_width="wrap_content" android:layout_height="wrap_content">
                 <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/ll_collect" android:layout_width="44.0dip" android:layout_height="wrap_content">
                     <com.airbnb.lottie.LottieAnimationView android:id="@id/lav_add_to_collect" android:layout_width="35.0dip" android:layout_height="35.0dip" android:scaleType="fitCenter" android:layout_centerInParent="true" app:lottie_autoPlay="false" app:lottie_loop="false" />
-                    <com.baidu.input.acgfont.ImeTextView android:textSize="14.0dip" android:textColor="#ff666666" android:id="@id/tv_collect" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="收藏" />
+                    <com.baidu.input.acgfont.ImeTextView android:textSize="14.0dip" android:textColor="#ff666666" android:id="@id/tv_collect" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="Получить" />
                 </LinearLayout>
                 <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/ll_save" android:layout_width="44.0dip" android:layout_height="wrap_content">
                     <ImageView android:id="@id/iv_save" android:layout_width="35.0dip" android:layout_height="35.0dip" android:src="@drawable/emotion2_download" />
-                    <com.baidu.input.acgfont.ImeTextView android:textSize="14.0dip" android:textColor="#ff666666" android:id="@id/itv_save" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="保存" />
+                    <com.baidu.input.acgfont.ImeTextView android:textSize="14.0dip" android:textColor="#ff666666" android:id="@id/itv_save" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="Сохранить" />
                 </LinearLayout>
                 <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/ll_send" android:layout_width="44.0dip" android:layout_height="wrap_content">
                     <ImageView android:id="@id/iv_send" android:layout_width="35.0dip" android:layout_height="35.0dip" android:src="@drawable/emotion2_send" />
-                    <com.baidu.input.acgfont.ImeTextView android:textSize="14.0dip" android:textColor="#ff666666" android:id="@id/itv_send" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="发送" />
+                    <com.baidu.input.acgfont.ImeTextView android:textSize="14.0dip" android:textColor="#ff666666" android:id="@id/itv_send" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="Отправить" />
                 </LinearLayout>
             </LinearLayout>
             <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_rec" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip">
                 <View android:background="#ffe4e4e4" android:layout_width="0.0dip" android:layout_height="1.0px" android:layout_marginLeft="24.0dip" android:layout_marginRight="20.0dip" android:layout_weight="1.0" />
-                <com.baidu.input.acgfont.ImeTextView android:textSize="12.0sp" android:textColor="#ff666666" android:ellipsize="end" android:gravity="center" android:id="@id/itv_rec_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="为你推荐类似表情" android:maxLines="1" android:maxEms="8" />
+                <com.baidu.input.acgfont.ImeTextView android:textSize="12.0sp" android:textColor="#ff666666" android:ellipsize="end" android:gravity="center" android:id="@id/itv_rec_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Похожие выражения" android:maxLines="1" android:maxEms="8" />
                 <View android:background="#ffe4e4e4" android:layout_width="0.0dip" android:layout_height="1.0px" android:layout_marginLeft="20.0dip" android:layout_marginRight="24.0dip" android:layout_weight="1.0" />
             </LinearLayout>
             <LinearLayout android:orientation="vertical" android:id="@id/rec_ll" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginHorizontal="10.0dip" />

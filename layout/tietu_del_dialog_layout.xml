@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout android:layout_gravity="center" android:background="@android:color/white" android:layout_width="293.0dip" android:layout_height="149.0dip"
   xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.baidu.input.acgfont.ImeTextView android:textSize="17.0sp" android:textColor="#ff000000" android:gravity="center" android:id="@id/del_intro" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="35.0dip" android:text="确定是否删除" />
+    <com.baidu.input.acgfont.ImeTextView android:textSize="17.0sp" android:textColor="#ff000000" android:gravity="center" android:id="@id/del_intro" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="35.0dip" android:text="Удалить?" />
     <LinearLayout android:orientation="horizontal" android:background="@drawable/round_bg" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="11.0dip" android:layout_alignParentBottom="true">
-        <Button android:textSize="16.0sp" android:textColor="#ff000000" android:id="@id/cancel_btn" android:background="@drawable/cancel_btn" android:paddingTop="1.0dip" android:paddingBottom="1.0dip" android:layout_width="136.0dip" android:layout_height="fill_parent" android:layout_marginRight="5.0dip" android:text="取消" />
-        <Button android:textSize="16.0sp" android:textColor="#ffffffff" android:id="@id/ok_btn" android:background="@drawable/enabled_btn" android:paddingTop="1.0dip" android:paddingBottom="1.0dip" android:layout_width="136.0dip" android:layout_height="fill_parent" android:text="确定" />
+        <Button android:textSize="16.0sp" android:textColor="#ff000000" android:id="@id/cancel_btn" android:background="@drawable/cancel_btn" android:paddingTop="1.0dip" android:paddingBottom="1.0dip" android:layout_width="136.0dip" android:layout_height="fill_parent" android:layout_marginRight="5.0dip" android:text="Отмена" />
+        <Button android:textSize="16.0sp" android:textColor="#ffffffff" android:id="@id/ok_btn" android:background="@drawable/enabled_btn" android:paddingTop="1.0dip" android:paddingBottom="1.0dip" android:layout_width="136.0dip" android:layout_height="fill_parent" android:text="Ok" />
     </LinearLayout>
 </RelativeLayout>

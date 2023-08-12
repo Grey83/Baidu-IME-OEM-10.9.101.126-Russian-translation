@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen android:key="@string/pref_key_CIKUBACKUPRECOVER"
   xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.baidu.input.pref.ImePreference android:title="从本地恢复" android:key="@string/pref_key_PHONEDN" />
-    <com.baidu.input.pref.ImePreference android:title="从文本导入" android:key="@string/pref_key_impt1" />
-    <com.baidu.input.pref.ImePreference android:title="备份到本地" android:key="@string/pref_key_BDPHONE" />
+    <com.baidu.input.pref.ImePreference android:title="Восстановить из телефона" android:key="@string/pref_key_PHONEDN" />
+    <com.baidu.input.pref.ImePreference android:title="Импорт из текста" android:key="@string/pref_key_impt1" />
+    <com.baidu.input.pref.ImePreference android:title="Бэкап на телефон" android:key="@string/pref_key_BDPHONE" />
 </PreferenceScreen>

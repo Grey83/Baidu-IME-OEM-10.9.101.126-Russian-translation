@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen android:key="@string/pref_key_front_quick_note_root"
   xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.baidu.input.pref.ImeCheckBoxPreference android:title="开启通知栏剪贴板 " android:key="@string/pref_key_float_allow_notification" android:defaultValue="@bool/is_open" />
+    <com.baidu.input.pref.ImeCheckBoxPreference android:title="Включить буфер обмена в панели уведомлений" android:key="@string/pref_key_float_allow_notification" android:defaultValue="@bool/is_open" />
 </PreferenceScreen>

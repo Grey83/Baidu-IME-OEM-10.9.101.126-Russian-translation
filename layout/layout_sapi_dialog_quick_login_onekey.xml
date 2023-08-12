@@ -2,5 +2,5 @@
 <LinearLayout android:orientation="vertical" android:paddingLeft="29.0dip" android:paddingTop="19.0dip" android:paddingRight="29.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="125.0dip"
   xmlns:android="http://schemas.android.com/apk/res/android">
     <TextView android:textSize="19.0sp" android:textStyle="bold" android:textColor="#ff1f1f1f" android:layout_gravity="center_horizontal" android:id="@id/sapi_sdk_tv_onekey_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:text="" />
-    <com.baidu.sapi2.views.logindialog.view.LoginComfirmButton android:textSize="16.0dip" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/sapi_sdk_tv_onekey_button" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="38.0dip" android:text="一键登录" />
+    <com.baidu.sapi2.views.logindialog.view.LoginComfirmButton android:textSize="16.0dip" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/sapi_sdk_tv_onekey_button" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="38.0dip" android:text="Быстрый вход" />
 </LinearLayout>

@@ -3,7 +3,7 @@
   xmlns:android="http://schemas.android.com/apk/res/android">
     <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/sapi_sdk_ll_other_login_type_tip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="30.0dip">
         <View android:background="#ffb8b8b8" android:layout_width="25.0dip" android:layout_height="0.30000007dip" />
-        <TextView android:textSize="10.0dip" android:textColor="#ffb8b8b8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:text="其他登录方式" />
+        <TextView android:textSize="10.0dip" android:textColor="#ffb8b8b8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:text="Другие способы входа" />
         <View android:background="#ffb8b8b8" android:layout_width="25.0dip" android:layout_height="0.30000007dip" />
     </LinearLayout>
     <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="30.0dip">

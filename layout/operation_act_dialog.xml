@@ -5,14 +5,14 @@
         <RelativeLayout android:id="@id/rl_operation_act" android:layout_width="fill_parent" android:layout_height="180.0dip">
             <com.baidu.input.layout.widget.RoundImageView android:id="@id/iv_operation_act_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/operation_act_bg_t" android:scaleType="centerCrop" />
             <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true">
-                <TextView android:textSize="18.0sp" android:textColor="@color/black" android:ellipsize="end" android:id="@id/tv_operation_act_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="16.0dip" android:text="sd利拉打开了电视里的?" android:maxLines="1" />
+                <TextView android:textSize="18.0sp" android:textColor="@color/black" android:ellipsize="end" android:id="@id/tv_operation_act_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="16.0dip" android:text="Включить sd利拉打开了电视里的?" android:maxLines="1" />
                 <com.baidu.input.layout.widget.RoundImageView android:id="@id/iv_operation_act_skip" android:visibility="gone" android:layout_width="200.0dip" android:layout_height="120.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:scaleType="centerCrop" />
             </LinearLayout>
         </RelativeLayout>
         <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/rl_operation_act" android:layout_alignLeft="@id/rl_operation_act" android:layout_alignRight="@id/rl_operation_act">
-            <Button android:textSize="16.0sp" android:textColor="@color/white" android:id="@id/btn_cancel_operation_act" android:background="@drawable/shape_operation_btn_left" android:layout_width="0.0dip" android:layout_height="50.0dip" android:text="取消" android:layout_weight="1.0" />
+            <Button android:textSize="16.0sp" android:textColor="@color/white" android:id="@id/btn_cancel_operation_act" android:background="@drawable/shape_operation_btn_left" android:layout_width="0.0dip" android:layout_height="50.0dip" android:text="Отмена" android:layout_weight="1.0" />
             <View android:background="#ff2d62b9" android:layout_width="1.0dip" android:layout_height="fill_parent" />
-            <Button android:textSize="16.0sp" android:textColor="@color/white" android:id="@id/btn_enter_operation_act" android:background="@drawable/shape_operation_btn_right" android:layout_width="0.0dip" android:layout_height="50.0dip" android:text="确定" android:layout_weight="1.0" />
+            <Button android:textSize="16.0sp" android:textColor="@color/white" android:id="@id/btn_enter_operation_act" android:background="@drawable/shape_operation_btn_right" android:layout_width="0.0dip" android:layout_height="50.0dip" android:text="Ok" android:layout_weight="1.0" />
         </LinearLayout>
     </RelativeLayout>
 </RelativeLayout>

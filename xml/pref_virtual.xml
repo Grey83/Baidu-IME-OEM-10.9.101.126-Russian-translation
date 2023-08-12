@@ -3,18 +3,18 @@
   xmlns:android="http://schemas.android.com/apk/res/android" xmlns:baidu="http://schemas.android.com/apk/res-auto">
     <com.baidu.input.pref.ImePreference android:title="@string/candsize" android:key="@string/pref_key_CANDWORDSIZE" />
     <com.baidu.input.pref.ImeCheckBoxPreference android:title="@string/pref_title_navigation_smart_color" android:key="@string/pref_key_navigation_smart_color" android:summary="@string/pref_desc_navigation_smart_color" />
-    <com.baidu.input.pref.CustListPref android:entries="@array/nineonesynops" android:title="桌面主题同步皮肤设置" android:key="@string/pref_key_91SYN" android:defaultValue="0" android:entryValues="@array/listvalue3" />
-    <com.baidu.input.pref.ImePreference android:title="悬浮键盘透明度" android:key="@string/pref_key_FLOATMODE" />
-    <com.baidu.input.pref.ImeCheckBoxPreference android:title="回车键发送消息" android:key="@string/pref_key_auto_send" android:defaultValue="false" />
-    <com.baidu.input.pref.CustListPref android:entries="@array/sliding" android:title="左右滑动切换设置" android:key="@string/pref_key_SLIDINGSETTING" android:defaultValue="1" android:entryValues="@array/listvalue3" />
-    <com.baidu.input.pref.MiniModelPref android:title="单手模式设置" android:key="@string/pref_key_MINIMODE" />
-    <com.baidu.input.pref.ImeCheckBoxPreference android:title="按下效果" android:key="@string/pref_key_showpress" android:defaultValue="true" />
-    <com.baidu.input.pref.ImeCheckBoxPreference android:title="划线效果" android:key="@string/pref_key_showdragline" android:defaultValue="true" />
-    <com.baidu.input.pref.ImeCheckBoxPreference android:title="按键字符提示" android:key="@string/pref_key_showhint" android:defaultValue="true" />
-    <com.baidu.input.pref.ImeCheckBoxPreference android:title="中文面板输入显示" android:key="@string/pref_key_SOFTINPUT" android:defaultValue="true" android:summaryOn="置于面板顶部" android:summaryOff="下划线显示" />
+    <com.baidu.input.pref.CustListPref android:entries="@array/nineonesynops" android:title="Синхронизировать скин со системной схемой" android:key="@string/pref_key_91SYN" android:defaultValue="0" android:entryValues="@array/listvalue3" />
+    <com.baidu.input.pref.ImePreference android:title="Прозрачность плавающей клавиатуры" android:key="@string/pref_key_FLOATMODE" />
+    <com.baidu.input.pref.ImeCheckBoxPreference android:title="Нажатие Enter для отправки сообщения" android:key="@string/pref_key_auto_send" android:defaultValue="false" />
+    <com.baidu.input.pref.CustListPref android:entries="@array/sliding" android:title="Переключение свайпом" android:key="@string/pref_key_SLIDINGSETTING" android:defaultValue="2" android:entryValues="@array/listvalue3" />
+    <com.baidu.input.pref.MiniModelPref android:title="Настройки управления одной рукой" android:key="@string/pref_key_MINIMODE" />
+    <com.baidu.input.pref.ImeCheckBoxPreference android:title="Эффект нажатия" android:key="@string/pref_key_showpress" android:defaultValue="true" />
+    <com.baidu.input.pref.ImeCheckBoxPreference android:title="Эффект линии" android:key="@string/pref_key_showdragline" android:defaultValue="false" />
+    <com.baidu.input.pref.ImeCheckBoxPreference android:title="Подсказка символа" android:key="@string/pref_key_showhint" android:defaultValue="true" />
+    <com.baidu.input.pref.ImeCheckBoxPreference android:title="Дисплей ввода китайского" android:key="@string/pref_key_SOFTINPUT" android:defaultValue="true" android:summaryOn="Сверху" android:summaryOff="Внизу" />
     <com.baidu.input.pref.ImePreference android:title="@string/vibrate" android:key="@string/pref_key_VIBRATE" />
-    <com.baidu.input.pref.ImeCheckBoxPreference android:title="空格键选择联想词" android:key="@string/pref_key_SPACE2LX" android:defaultValue="false" />
-    <com.baidu.input.pref.ImeCheckBoxPreference android:title="启用26键符号键盘" android:key="@string/pref_key_enable_sym26_panel" android:defaultValue="true" />
-    <com.baidu.input.pref.ImeCheckBoxPreference android:title="横屏时启用全屏模式" android:key="@string/pref_key_EXVIEW" android:defaultValue="true" />
-    <com.baidu.input.pref.ImeCheckBoxPreference android:title="曲面屏防误触" android:key="@string/pref_key_curved_fit" />
+    <com.baidu.input.pref.ImeCheckBoxPreference android:title="Пробел для выбора ассоциативных слов" android:key="@string/pref_key_SPACE2LX" android:defaultValue="false" />
+    <com.baidu.input.pref.ImeCheckBoxPreference android:title="Включить 26кл. символьную клавиатуру" android:key="@string/pref_key_enable_sym26_panel" android:defaultValue="true" />
+    <com.baidu.input.pref.ImeCheckBoxPreference android:title="Полноэкранный режим в альбомной ориентации" android:key="@string/pref_key_EXVIEW" android:defaultValue="true" />
+    <com.baidu.input.pref.ImeCheckBoxPreference android:title="Защита от ложных срабатываний на изогнутом экране" android:key="@string/pref_key_curved_fit" />
 </PreferenceScreen>

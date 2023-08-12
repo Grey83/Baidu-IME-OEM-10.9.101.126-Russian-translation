@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen android:title="模糊音设置" android:key="@string/pref_key_mohuyin_settings_root"
   xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.baidu.input.pref.ImePreferenceCategory android:title="辅音" android:key="@string/pref_key_fuyin_settings_root">
+    <com.baidu.input.pref.ImePreferenceCategory android:title="Согласные" android:key="@string/pref_key_fuyin_settings_root">
         <com.baidu.input.pref.ImeCheckBoxPreference android:title="ch = c" android:key="@string/pref_key_MH0" android:defaultValue="true" />
         <com.baidu.input.pref.ImeCheckBoxPreference android:title="sh = s" android:key="@string/pref_key_MH1" android:defaultValue="true" />
         <com.baidu.input.pref.ImeCheckBoxPreference android:title="zh = z" android:key="@string/pref_key_MH2" android:defaultValue="true" />
@@ -10,7 +10,7 @@
         <com.baidu.input.pref.ImeCheckBoxPreference android:title="n = l" android:key="@string/pref_key_MH5" android:defaultValue="false" />
         <com.baidu.input.pref.ImeCheckBoxPreference android:title="r = l" android:key="@string/pref_key_MH11" android:defaultValue="false" />
     </com.baidu.input.pref.ImePreferenceCategory>
-    <com.baidu.input.pref.ImePreferenceCategory android:title="元音" android:key="@string/pref_key_yuanyin_settings_root">
+    <com.baidu.input.pref.ImePreferenceCategory android:title="Гласные" android:key="@string/pref_key_yuanyin_settings_root">
         <com.baidu.input.pref.ImeCheckBoxPreference android:title="ang = an" android:key="@string/pref_key_MH6" android:defaultValue="true" />
         <com.baidu.input.pref.ImeCheckBoxPreference android:title="eng = en" android:key="@string/pref_key_MH7" android:defaultValue="true" />
         <com.baidu.input.pref.ImeCheckBoxPreference android:title="ing = in" android:key="@string/pref_key_MH8" android:defaultValue="true" />
@@ -19,7 +19,7 @@
         <com.baidu.input.pref.ImeCheckBoxPreference android:title="an = ai" android:key="@string/pref_key_MH12" android:defaultValue="false" />
         <com.baidu.input.pref.ImeCheckBoxPreference android:title="un = ong" android:key="@string/pref_key_MH13" android:defaultValue="false" />
     </com.baidu.input.pref.ImePreferenceCategory>
-    <com.baidu.input.pref.ImePreferenceCategory android:title="混合音" android:key="@string/pref_key_mix_fuzzy_settings_root">
+    <com.baidu.input.pref.ImePreferenceCategory android:title="Смешанные" android:key="@string/pref_key_mix_fuzzy_settings_root">
         <com.baidu.input.pref.ImeCheckBoxPreference android:title="hui = fei" android:key="@string/pref_key_MH16" android:defaultValue="false" />
         <com.baidu.input.pref.ImeCheckBoxPreference android:title="huang = wang" android:key="@string/pref_key_MH17" android:defaultValue="false" />
         <com.baidu.input.pref.ImeCheckBoxPreference android:title="feng = hong" android:key="@string/pref_key_MH18" android:defaultValue="false" />

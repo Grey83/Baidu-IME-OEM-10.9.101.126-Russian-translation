@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen android:title="@string/settings_help" android:key="@string/pref_key_help" baidu:canSearch="false"
   xmlns:android="http://schemas.android.com/apk/res/android" xmlns:baidu="http://schemas.android.com/apk/res-auto">
-    <com.baidu.input.pref.ImePreference android:title="反馈问题" android:key="@string/pref_key_FEEDBACK" />
+    <com.baidu.input.pref.ImePreference android:title="Обратная связь" android:key="@string/pref_key_FEEDBACK" />
     <com.baidu.input.pref.ImePreference android:title="@string/tofriend" android:key="@string/pref_key_COMMD" />
-    <com.baidu.input.pref.HelpPref android:title="使用说明" android:key="@string/pref_key_HELP" />
-    <com.baidu.input.pref.ImePreference android:title="用户体验改进计划" android:key="@string/pref_key_USEREXP" />
-    <com.baidu.input.pref.ImePreference android:title="开源代码许可" android:key="@string/pref_key_OPEN_SOURCE" />
-    <com.baidu.input.pref.ImePreference android:title="关于" android:key="@string/pref_key_about" />
+    <com.baidu.input.pref.HelpPref android:title="Инструкции по применению" android:key="@string/pref_key_HELP" />
+    <com.baidu.input.pref.ImePreference android:title="Программа улучшения UX" android:key="@string/pref_key_USEREXP" />
+    <com.baidu.input.pref.ImePreference android:title="Лицензии открытого ПО" android:key="@string/pref_key_OPEN_SOURCE" />
+    <com.baidu.input.pref.ImePreference android:title="О Baidu IME" android:key="@string/pref_key_about" />
 </PreferenceScreen>

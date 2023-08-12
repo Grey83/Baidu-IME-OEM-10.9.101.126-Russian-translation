@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout android:orientation="vertical" android:paddingLeft="24.0dip" android:paddingRight="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
   xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.baidu.input.acgfont.ImeTextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="#ff000000" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="字体大小设置" android:layout_centerHorizontal="true" />
+    <com.baidu.input.acgfont.ImeTextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="#ff000000" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="Настройка размера шрифта" android:layout_centerHorizontal="true" />
     <com.baidu.input.acgfont.ImeTextView android:textSize="12.0dip" android:textColor="#ff000000" android:id="@id/font_size" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/font_size" android:layout_alignParentLeft="true" />
     <com.baidu.input.acgfont.ImeTextView android:textSize="20.669983dip" android:textColor="#ff000000" android:gravity="center" android:id="@id/tv_title" android:layout_width="fill_parent" android:layout_height="56.0dip" android:layout_marginTop="27.329987dip" android:text="@string/app_name" />
     <LinearLayout android:orientation="horizontal" android:id="@id/font_setting" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="34.0dip">

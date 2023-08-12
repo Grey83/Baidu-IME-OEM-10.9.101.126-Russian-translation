@@ -5,13 +5,13 @@
         <FrameLayout android:id="@id/rl_select_language" android:layout_width="37.0dip" android:layout_height="fill_parent" android:paddingStart="13.0dip">
             <FrameLayout android:id="@id/rl_normal" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
                 <ImageView android:id="@id/iv_right_icon" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/translate_right_icon_t" />
-                <com.baidu.input.acgfont.ImeTextView android:textSize="10.0dip" android:textColor="#ffffffff" android:layout_gravity="center_vertical" android:id="@id/tv_target_language" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="英" android:maxLines="1" android:maxEms="1" />
+                <com.baidu.input.acgfont.ImeTextView android:textSize="10.0dip" android:textColor="#ffffffff" android:layout_gravity="center_vertical" android:id="@id/tv_target_language" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="En" android:maxLines="1" android:maxEms="1" />
                 <ImageView android:id="@id/iv_left_icon" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/translate_left_icon_t" />
-                <com.baidu.input.acgfont.ImeTextView android:textSize="10.0dip" android:textColor="#ffffffff" android:layout_gravity="center_vertical" android:id="@id/tv_src_language" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:text="中" android:maxLines="1" android:maxEms="1" />
+                <com.baidu.input.acgfont.ImeTextView android:textSize="10.0dip" android:textColor="#ffffffff" android:layout_gravity="center_vertical" android:id="@id/tv_src_language" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:text="Ch" android:maxLines="1" android:maxEms="1" />
             </FrameLayout>
             <FrameLayout android:id="@id/rl_auto" android:layout_width="fill_parent" android:layout_height="fill_parent">
                 <ImageView android:id="@id/iv_auto_icon" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="2.0dip" android:src="@drawable/translate_select_auto_t" />
-                <com.baidu.input.acgfont.ImeTextView android:textSize="10.329987dip" android:textColor="@color/white" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="自动" />
+                <com.baidu.input.acgfont.ImeTextView android:textSize="10.329987dip" android:textColor="@color/white" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Auto" />
             </FrameLayout>
         </FrameLayout>
         <ImageView android:id="@id/iv_editor_down_arrow" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="15.669983dip" android:layout_height="fill_parent" android:src="@drawable/translate_down_arrow_t" android:paddingHorizontal="5.0dip" />

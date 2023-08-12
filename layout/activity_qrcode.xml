@@ -5,5 +5,5 @@
     <com.baidu.input.meeting.ui.view.QrcodeCaptureView android:id="@id/qrcapture" android:layout_width="fill_parent" android:layout_height="fill_parent" />
     <ImageView android:id="@id/qrcode_close" android:background="@color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="20.0dip" android:src="@drawable/qrcode_scan_close" />
     <TextView android:textSize="20.0sp" android:textColor="@color/white" android:layout_gravity="center_horizontal" android:id="@id/qrcode_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/qrcode_title1" />
-    <TextView android:textSize="20.0sp" android:textColor="@color/white" android:layout_gravity="right" android:id="@id/qrcode_gallery" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginRight="20.0dip" android:text="相册" />
+    <TextView android:textSize="20.0sp" android:textColor="@color/white" android:layout_gravity="right" android:id="@id/qrcode_gallery" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginRight="20.0dip" android:text="Альбом" />
 </FrameLayout>

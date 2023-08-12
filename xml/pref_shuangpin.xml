@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="管理双拼方案" android:key="@string/pref_key_shuangpin_case_root"
+<PreferenceScreen android:title="Шуанпин" android:key="@string/pref_key_shuangpin_case_root"
   xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.baidu.input.pref.SP26Pref android:title="26键双拼方案" android:key="@string/pref_key_spdiy" />
-    <com.baidu.input.pref.SP10Pref android:title="9键双拼方案" android:key="@string/pref_key_sp10diy" />
-    <com.baidu.input.pref.ImePreference android:title="编辑26键双拼方案" android:key="@string/pref_key_spedit2" />
-    <com.baidu.input.pref.ImePreference android:title="编辑9键双拼方案" android:key="@string/pref_key_spedit6" />
-    <com.baidu.input.pref.ImePreference android:title="导出双拼方案" android:key="@string/pref_key_expt2" />
-    <com.baidu.input.pref.ImePreference android:title="导入双拼方案" android:key="@string/pref_key_impt2" />
-    <com.baidu.input.pref.ImePreference android:title="恢复默认双拼方案" android:key="@string/pref_key_reset2" />
+    <com.baidu.input.pref.SP26Pref android:title="26-клавишная схема" android:key="@string/pref_key_spdiy" />
+    <com.baidu.input.pref.SP10Pref android:title="9-клавишная схема" android:key="@string/pref_key_sp10diy" />
+    <com.baidu.input.pref.ImePreference android:title="Настройка 26-кл. схемы" android:key="@string/pref_key_spedit2" />
+    <com.baidu.input.pref.ImePreference android:title="Настройка 9-кл. схемы" android:key="@string/pref_key_spedit6" />
+    <com.baidu.input.pref.ImePreference android:title="Экспорт" android:key="@string/pref_key_expt2" />
+    <com.baidu.input.pref.ImePreference android:title="Импорт" android:key="@string/pref_key_impt2" />
+    <com.baidu.input.pref.ImePreference android:title="Сброс" android:key="@string/pref_key_reset2" />
 </PreferenceScreen>

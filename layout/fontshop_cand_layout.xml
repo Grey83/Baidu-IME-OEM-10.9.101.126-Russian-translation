@@ -3,7 +3,7 @@
   xmlns:android="http://schemas.android.com/apk/res/android">
     <RelativeLayout android:id="@id/rl_title" android:background="#fff5f6fa" android:layout_width="fill_parent" android:layout_height="43.329987dip">
         <ImageView android:id="@id/iv_back" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginLeft="16.0dip" android:src="@drawable/font_recommend_left_1_t" android:layout_centerVertical="true" />
-        <com.baidu.input.acgfont.ImeTextView android:textSize="16.0sp" android:textColor="#ff4e5159" android:id="@id/font_tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="键盘字体" android:layout_centerInParent="true" />
+        <com.baidu.input.acgfont.ImeTextView android:textSize="16.0sp" android:textColor="#ff4e5159" android:id="@id/font_tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Шрифт клавиатуры" android:layout_centerInParent="true" />
     </RelativeLayout>
     <View android:id="@id/bottom_divider" android:background="#ffebebeb" android:layout_width="fill_parent" android:layout_height="0.33000004dip" />
 </LinearLayout>

@@ -7,5 +7,5 @@
     </RelativeLayout>
     <ImageView android:id="@id/cus_share" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:src="@drawable/cus_try_share" />
     <ImageView android:id="@id/banner_imageview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:contentDescription="@string/app_name" />
-    <com.baidu.input.acgfont.ImeTextView android:textSize="16.0sp" android:textColor="#ff000000" android:gravity="center" android:id="@id/bt_title" android:paddingRight="15.0dip" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="编辑" />
+    <com.baidu.input.acgfont.ImeTextView android:textSize="16.0sp" android:textColor="#ff000000" android:gravity="center" android:id="@id/bt_title" android:paddingRight="15.0dip" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="Редактировать" />
 </merge>

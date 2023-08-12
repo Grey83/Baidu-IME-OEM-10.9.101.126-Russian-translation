@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="管理符号文件" android:key="@string/pref_key_fuhao_files_root"
+<PreferenceScreen android:title="Файлы символов" android:key="@string/pref_key_fuhao_files_root"
   xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.baidu.input.pref.ImePreference android:title="导出符号文件" android:key="@string/pref_key_expt3" />
-    <com.baidu.input.pref.ImePreference android:title="导入符号文件" android:key="@string/pref_key_impt3" />
-    <com.baidu.input.pref.ImePreference android:title="恢复默认符号文件" android:key="@string/pref_key_reset3" />
+    <com.baidu.input.pref.ImePreference android:title="Экспорт" android:key="@string/pref_key_expt3" />
+    <com.baidu.input.pref.ImePreference android:title="Импорт" android:key="@string/pref_key_impt3" />
+    <com.baidu.input.pref.ImePreference android:title="Сброс" android:key="@string/pref_key_reset3" />
 </PreferenceScreen>

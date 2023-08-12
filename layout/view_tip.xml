@@ -3,7 +3,7 @@
   xmlns:android="http://schemas.android.com/apk/res/android">
     <LinearLayout android:orientation="vertical" android:id="@id/tip_loading_progress_parent" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
         <ImageView android:layout_gravity="center_horizontal" android:id="@id/tip_loading_view" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/tips_loading" />
-        <TextView android:textSize="14.0sp" android:textColor="#ff666666" android:id="@id/tip_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="正在加载..." />
+        <TextView android:textSize="14.0sp" android:textColor="#ff666666" android:id="@id/tip_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="Загрузка..." />
     </LinearLayout>
     <com.baidu.poly.widget.SkeletonScreenLoadingView android:id="@id/tip_skeleton_screen_loading_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
 </FrameLayout>

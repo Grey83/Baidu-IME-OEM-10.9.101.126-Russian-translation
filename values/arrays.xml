@@ -8,11 +8,11 @@
         <item>gs2_low_</item>
     </string-array>
     <string-array name="ARRAY_SP10DIY_TYPES">
-        <item>未指定</item>
-        <item>米旮旯3</item>
-        <item>米旮旯2</item>
-        <item>辜氏2</item>
-        <item>辜氏2低重码</item>
+        <item>Не задано</item>
+        <item>Migala3</item>
+        <item>Migala2</item>
+        <item>Gushi2</item>
+        <item>Gushi2(малоповторный код)</item>
     </string-array>
     <string-array name="ARRAY_SPDIY_FILENAMES">
         <item>wr_</item>
@@ -23,16 +23,16 @@
         <item>zrm_</item>
     </string-array>
     <string-array name="ARRAY_SPDIY_TYPES">
-        <item>微软双拼</item>
-        <item>小鹤双拼</item>
-        <item>拼音加加</item>
-        <item>智能ABC</item>
-        <item>紫光双拼</item>
-        <item>自然码</item>
+        <item>Майкрософт shuangpin</item>
+        <item>Xiaohe shuangpin</item>
+        <item>Pinyin jiajia</item>
+        <item>Азбука Zhineng</item>
+        <item>Huayu shuangpin</item>
+        <item>Ziranma</item>
     </string-array>
     <string-array name="ARRAY_WB_MODE">
-        <item>86五笔方案</item>
-        <item>98五笔方案</item>
+        <item>86 Уби</item>
+        <item>98 Уби</item>
     </string-array>
     <string-array name="BDSKT">
         <item>gen</item>
@@ -111,23 +111,23 @@
         <item>7</item>
     </string-array>
     <string-array name="CLRNAME">
-        <item>默认</item>
-        <item>水墨黑</item>
-        <item>经典蓝</item>
-        <item>祖母绿</item>
-        <item>提拉米苏棕</item>
-        <item>抹茶绿</item>
-        <item>柠檬黄</item>
-        <item>樱花红</item>
-        <item>西瓜绿</item>
-        <item>马卡龙蓝</item>
+        <item>По умолчанию</item>
+        <item>Черные чернила</item>
+        <item>Классический синий</item>
+        <item>Изумруд</item>
+        <item>Коричневый тирамису</item>
+        <item>Зеленый матча</item>
+        <item>Желтый лимон</item>
+        <item>Красная сакура</item>
+        <item>Зеленый арбуз</item>
+        <item>Макарон синий</item>
     </string-array>
     <string-array name="CPIDXNAME">
-        <item>第一位（置于首选位置）</item>
-        <item>第二位</item>
-        <item>第三位</item>
-        <item>第四位</item>
-        <item>第五位</item>
+        <item>Первое</item>
+        <item>Второе</item>
+        <item>Третье</item>
+        <item>Четвёртое</item>
+        <item>Пятое</item>
     </string-array>
     <string-array name="CPIDXVALUE">
         <item>1</item>
@@ -271,21 +271,21 @@
         <item>\#</item>
     </string-array>
     <string-array name="IMEOPT">
-        <item>切换输入方式</item>
-        <item>编辑文本</item>
-        <item>数字</item>
-        <item>更新流行词</item>
-        <item>输入法设置</item>
-        <item>中文拼音</item>
-        <item>中文笔画</item>
-        <item>中文五笔</item>
-        <item>全屏手写</item>
-        <item>半屏手写</item>
-        <item>中文自定义</item>
-        <item>英文联想</item>
-        <item>英文字母</item>
-        <item>26键键盘</item>
-        <item>9键键盘</item>
+        <item>Сменить раскладку</item>
+        <item>Текст</item>
+        <item>Число</item>
+        <item>Словарь</item>
+        <item>Настройки ввода</item>
+        <item>Пиньинь</item>
+        <item>Бихуа</item>
+        <item>Уби</item>
+        <item>Весь экран</item>
+        <item>Пол экрана</item>
+        <item>Кит. традиционный</item>
+        <item>Англ. T9</item>
+        <item>Английский</item>
+        <item>26 клавиш</item>
+        <item>9 клавиш</item>
     </string-array>
     <string-array name="INSTALLFILES">
         <item>phrase_plus.ini</item>
@@ -379,16 +379,16 @@
         <item>_</item>
     </string-array>
     <string-array name="MARKS">
-        <item>低</item>
-        <item>高</item>
-        <item>细</item>
-        <item>粗</item>
-        <item>快</item>
-        <item>慢</item>
-        <item>弱</item>
-        <item>强</item>
-        <item>小</item>
-        <item>大</item>
+        <item>Низкий</item>
+        <item>Высокий</item>
+        <item>Тонкий</item>
+        <item>Жирный</item>
+        <item>Быстро</item>
+        <item>Медленно</item>
+        <item>Слабо</item>
+        <item>Сильно</item>
+        <item>Маленький</item>
+        <item>Большой</item>
     </string-array>
     <string-array name="PADSKT">
         <item>gen</item>
@@ -479,9 +479,9 @@
         <item>res/</item>
     </string-array>
     <string-array name="SYM_LIST">
-        <item>最近</item>
-        <item>表情图</item>
-        <item>表情符</item>
+        <item>Недавние</item>
+        <item>Эмодзи</item>
+        <item>Эмотиконы</item>
     </string-array>
     <string-array name="SYSFILES">
         <item>setting</item>
@@ -492,12 +492,12 @@
         <item>logomenu_order</item>
     </string-array>
     <string-array name="TRANSLATE_VOICE_HINT">
-        <item>请说话</item>
-        <item>倾听中，松手结束</item>
-        <item>翻译中</item>
-        <item>松手取消</item>
-        <item>轻声识别中</item>
-        <item>翻译中...点击取消</item>
+        <item>Пожалуйста, говорите</item>
+        <item>Слушайте, отпустите</item>
+        <item>Перевод</item>
+        <item>Отпустить, чтобы отменить</item>
+        <item>Распознавание шепотом</item>
+        <item>Перевод...Нажмите, чтобы отменить</item>
     </string-array>
     <string-array name="UPLOADFILEFILTERS">
         <item>zeus</item>
@@ -511,125 +511,125 @@
         <item>theme</item>
     </string-array>
     <string-array name="VOICEMSG">
-        <item>网络连接超时</item>
-        <item>网络连接失败</item>
-        <item>糟糕，网络未连接</item>
-        <item>麦克风出错了</item>
-        <item>出错了，请重试</item>
-        <item>好像还没说话</item>
-        <item>没听清，请重说</item>
-        <item>麦克风权限未开启</item>
-        <item>未识别成功，请重试</item>
-        <item>糟糕，网络未连接</item>
-        <item>录音太长了</item>
-        <item>麦克风可能被占用，无法录音</item>
-        <item>麦克风不可用，录音失败</item>
+        <item>Время подключения к сети истекло</item>
+        <item>Не удалось подключиться к сети</item>
+        <item>Нет сети</item>
+        <item>Ошибка микрофона</item>
+        <item>Произошла ошибка, попробуйте еще раз</item>
+        <item>Похоже, вы еще не говорили</item>
+        <item>Нечетко расслышал, повторите</item>
+        <item>Нет разрешения на использование микрофона</item>
+        <item>Ошибка анализа голоса</item>
+        <item>Нет сети</item>
+        <item>Запись слишком длинная</item>
+        <item>Микрофон занят</item>
+        <item>Микрофон недоступен</item>
     </string-array>
     <string-array name="VOICE_HINT">
-        <item>请说话</item>
-        <item>倾听中，松手结束</item>
-        <item>识别中</item>
-        <item>松手取消</item>
-        <item>轻声识别中</item>
-        <item>识别中...点击取消</item>
-        <item>录音太长了，试试工具箱开启长语音</item>
+        <item>Пожалуйста, говорите</item>
+        <item>Прослушивание.Отпустите для отмены</item>
+        <item>Распознавание</item>
+        <item>Отпустить для отмены</item>
+        <item>Распознавание шепота</item>
+        <item>Распознавание. Нажмите для отмены</item>
+        <item>Запись слишком длинная, попробуйте включить длинную речь в панели инструментов</item>
     </string-array>
     <string-array name="WheelLngDefault">
-        <item>粤语</item>
-        <item>繁体中文</item>
-        <item>文言文</item>
-        <item>中文</item>
-        <item>英语</item>
-        <item>日语</item>
-        <item>韩语</item>
-        <item>法语</item>
-        <item>西班牙语</item>
-        <item>泰语</item>
-        <item>阿拉伯语</item>
-        <item>俄语</item>
-        <item>葡萄牙语</item>
-        <item>德语</item>
-        <item>意大利语</item>
-        <item>希腊语</item>
-        <item>荷兰语</item>
-        <item>波兰语</item>
-        <item>保加利亚语</item>
-        <item>爱沙尼亚语</item>
-        <item>丹麦语</item>
-        <item>芬兰语</item>
-        <item>捷克语</item>
-        <item>罗马尼亚语</item>
-        <item>斯洛文尼亚语</item>
-        <item>瑞典语</item>
-        <item>匈牙利语</item>
-        <item>越南语</item>
-        <item>阿尔巴尼亚语</item>
-        <item>奥里亚语</item>
-        <item>爱尔兰语</item>
-        <item>阿姆哈拉语</item>
-        <item>阿塞拜疆语</item>
-        <item>奥克语</item>
-        <item>阿萨姆语</item>
-        <item>阿斯图里亚斯语</item>
-        <item>白俄罗斯语</item>
-        <item>波斯语</item>
-        <item>巴斯克语</item>
-        <item>柏柏尔语</item>
-        <item>冰岛语</item>
-        <item>布列塔尼语</item>
-        <item>波斯尼亚语</item>
-        <item>低地德语</item>
-        <item>鞑靼语</item>
-        <item>菲律宾语</item>
-        <item>高棉语</item>
-        <item>古吉拉特语</item>
-        <item>格鲁吉亚语</item>
-        <item>加泰罗尼亚语</item>
-        <item>加利西亚语</item>
-        <item>卡拜尔语</item>
-        <item>卡纳达语</item>
-        <item>克罗地亚语</item>
-        <item>科萨语</item>
-        <item>库尔德语</item>
-        <item>拉丁语</item>
-        <item>拉脱维亚语</item>
-        <item>卢旺达语</item>
-        <item>库尔德语</item>
-        <item>立陶宛语</item>
-        <item>马来语</item>
-        <item>马拉加斯语</item>
-        <item>马耳他语</item>
-        <item>缅甸语</item>
-        <item>马拉雅拉姆语</item>
-        <item>迈蒂利语</item>
-        <item>马其顿语</item>
-        <item>孟加拉语</item>
-        <item>挪威语</item>
-        <item>南非荷兰语</item>
-        <item>尼泊尔语</item>
-        <item>旁遮普语</item>
-        <item>塞尔维亚语</item>
-        <item>世界语</item>
-        <item>索马里语</item>
-        <item>书面挪威语</item>
-        <item>斯瓦希里语</item>
-        <item>僧伽罗语</item>
-        <item>斯洛伐克语</item>
-        <item>泰米尔语</item>
-        <item>泰卢固语</item>
-        <item>土耳其语</item>
-        <item>他加禄语</item>
-        <item>塔吉克语</item>
-        <item>乌克兰语</item>
-        <item>瓦隆语</item>
-        <item>威尔士语</item>
-        <item>乌尔都语</item>
-        <item>新挪威语</item>
-        <item>希伯来语</item>
-        <item>西弗里斯语</item>
-        <item>亚美尼亚语</item>
-        <item>印地语</item>
-        <item>印尼语</item>
+        <item>Кантонский</item>
+        <item>Традиционный кит.</item>
+        <item>Классический кит.</item>
+        <item>Китайский</item>
+        <item>Английский</item>
+        <item>Японский</item>
+        <item>Корейский</item>
+        <item>Французский</item>
+        <item>Испанский</item>
+        <item>Тайский</item>
+        <item>Арабский</item>
+        <item>Русский</item>
+        <item>Португальский</item>
+        <item>Немецкий</item>
+        <item>Итальянский</item>
+        <item>Греческий</item>
+        <item>Голландский</item>
+        <item>Польский</item>
+        <item>Болгарский</item>
+        <item>Эстонский</item>
+        <item>Датский</item>
+        <item>Финский</item>
+        <item>Чешский</item>
+        <item>Румынский</item>
+        <item>Словенский</item>
+        <item>Шведский</item>
+        <item>Венгерский</item>
+        <item>Вьетнамский</item>
+        <item>Албанский</item>
+        <item>Ория</item>
+        <item>Ирландский</item>
+        <item>Амхарский</item>
+        <item>Азербайджанский</item>
+        <item>Окситанский</item>
+        <item>Ассамский</item>
+        <item>Астурианец</item>
+        <item>Белорусский</item>
+        <item>Фарси</item>
+        <item>Баскский</item>
+        <item>Берберский</item>
+        <item>Исландский</item>
+        <item>Бретонский</item>
+        <item>Боснийский</item>
+        <item>Нижненемецкий</item>
+        <item>Татарский</item>
+        <item>Филиппинский</item>
+        <item>Кхмерский</item>
+        <item>Гуджарати</item>
+        <item>Грузинский</item>
+        <item>Каталонский</item>
+        <item>Галицкий</item>
+        <item>Кабыл</item>
+        <item>Каннада</item>
+        <item>Хорватский</item>
+        <item>Коса</item>
+        <item>Курдский</item>
+        <item>Латинский</item>
+        <item>Латышский</item>
+        <item>Кырканда</item>
+        <item>Курдский</item>
+        <item>Литовский</item>
+        <item>Малайский</item>
+        <item>Малагасианский</item>
+        <item>Мальтийский</item>
+        <item>Бирманский</item>
+        <item>Малайялам</item>
+        <item>Майтхили 迈蒂利语</item>
+        <item>Македонский</item>
+        <item>Бенгальский</item>
+        <item>Норвежский</item>
+        <item>Африкаанс</item>
+        <item>Непальский</item>
+        <item>Панджаби</item>
+        <item>Сербский</item>
+        <item>Эсперанто</item>
+        <item>Сомалийский</item>
+        <item>Письменный норвежский</item>
+        <item>Суахили</item>
+        <item>Сингальский</item>
+        <item>Словацкий</item>
+        <item>Тамильский</item>
+        <item>Телугу</item>
+        <item>Турецкий</item>
+        <item>Тагальский</item>
+        <item>Таджикский</item>
+        <item>Украинский</item>
+        <item>Валлонский</item>
+        <item>Валлийский</item>
+        <item>Урду</item>
+        <item>Новый норвежский</item>
+        <item>Иврит</item>
+        <item>Западно-фризский</item>
+        <item>Армянский</item>
+        <item>Хинди</item>
+        <item>Индонезийский</item>
     </string-array>
     <string-array name="WheelLngShorthand">
         <item>yue</item>
@@ -733,14 +733,14 @@
         <item>繁</item>
         <item>文</item>
         <item>中</item>
-        <item>英</item>
+        <item>Анг</item>
         <item>日</item>
         <item>韩</item>
         <item>法</item>
         <item>西</item>
         <item>泰</item>
         <item>阿</item>
-        <item>俄</item>
+        <item>Рус</item>
         <item>葡</item>
         <item>德</item>
         <item>意</item>
@@ -826,43 +826,43 @@
         <item>印</item>
     </string-array>
     <string-array name="accessibility_edit_keys">
-        <item>回车</item>
-        <item>删除</item>
-        <item>向左</item>
-        <item>向右</item>
-        <item>向上</item>
-        <item>向下</item>
-        <item>到句尾</item>
-        <item>到句首</item>
-        <item>粘贴</item>
-        <item>选择</item>
-        <item>复制</item>
-        <item>剪切</item>
-        <item>全选</item>
-        <item>剪贴板</item>
+        <item>Ввод</item>
+        <item>Удалить</item>
+        <item>Влево</item>
+        <item>Вправо</item>
+        <item>Вверх</item>
+        <item>Вниз</item>
+        <item>В конец</item>
+        <item>В начало</item>
+        <item>Вставить</item>
+        <item>Выделить</item>
+        <item>Копировать</item>
+        <item>Вырезать</item>
+        <item>Выбрать всё</item>
+        <item>Буф. обмена</item>
     </string-array>
     <string-array name="accessibility_keyboards">
-        <item>用户自定义面板</item>
-        <item>笔画面板</item>
-        <item>五笔9键</item>
-        <item>五笔26键</item>
-        <item>英文9键</item>
-        <item>英文9键大写</item>
-        <item>英文26键</item>
-        <item>英文26键大写</item>
-        <item>数字9键</item>
-        <item>数字26键</item>
-        <item>拼音9键</item>
-        <item>拼音26键</item>
-        <item>半屏手写</item>
-        <item>全屏手写</item>
-        <item>更多面板</item>
-        <item>中文大写</item>
-        <item>注音面板</item>
-        <item>仓颉面板</item>
-        <item>表情面板</item>
-        <item>特殊框面板</item>
-        <item>特殊框大写面板</item>
+        <item>Пользовательская</item>
+        <item>Перьевой ввод</item>
+        <item>Уби 9кл</item>
+        <item>Уби 26кл</item>
+        <item>Английский 9кл</item>
+        <item>Английский 9кл капс</item>
+        <item>Английский 26кл</item>
+        <item>Английский 26кл капс</item>
+        <item>Цифры 9кл</item>
+        <item>Цифры 26кл</item>
+        <item>Пиньинь 9кл</item>
+        <item>Пиньинь 26кл</item>
+        <item>Рукописный, пол экрана</item>
+        <item>Рукописный, весь экран</item>
+        <item>Другие панели</item>
+        <item>Китайский капс</item>
+        <item>Чжуинь</item>
+        <item>Цанцзе</item>
+        <item>Смайлы</item>
+        <item>Спец. панель</item>
+        <item>Спец. панель капс</item>
     </string-array>
     <string-array name="accessibility_tips">
         <item>小写</item>
@@ -926,8 +926,8 @@
         <item>AR表情素材</item>
     </string-array>
     <string-array name="array_noti_soft_saving">
-        <item>安装包已经在Wi-Fi下为您准备好了，节省了 %.1fMB流量，快来安装吧！</item>
-        <item>安装包已经在Wi-Fi下为您准备好了，节省了 %.1fMB流量。</item>
+        <item>Установочный пакет готов для Вас под Wi-Fi, сэкономьте %.1fMB, установливайте!</item>
+        <item>Установочный пакет готов для Вас под Wi-Fi, сэкономьте %.1fMB.</item>
     </string-array>
     <string-array name="auto_correction_threshold_mode_indexes">
         <item>@string/auto_correction_threshold_mode_index_off</item>
@@ -1004,41 +1004,41 @@
         <item>1</item>
     </string-array>
     <string-array name="card_opens">
-        <item>打开</item>
-        <item>下载</item>
-        <item>播放</item>
-        <item>阅读</item>
-        <item>播放</item>
+        <item>Открыть</item>
+        <item>Скачать</item>
+        <item>Воспроизвести</item>
+        <item>Читать</item>
+        <item>Воспроизвести</item>
     </string-array>
     <string-array name="cellman">
-        <item>管理分类词库</item>
-        <item>关键字：</item>
-        <item>分类词库信息</item>
-        <item>分类词库</item>
-        <item>推荐下载</item>
-        <item>名字：</item>
-        <item>作者：</item>
-        <item>版本：</item>
-        <item>词条数：</item>
-        <item>说明：</item>
-        <item>下载分类词库</item>
-        <item>词库下载中</item>
-        <item>词库安装成功</item>
-        <item>词库更新中</item>
-        <item>啊哦,下载失败:(</item>
-        <item>词库安装中</item>
-        <item>网络不给力,稍后再试</item>
-        <item>啊哦,安装失败:(</item>
-        <item>您安装的是最新版!</item>
-        <item>：</item>
-        <item>更多分类词库下载</item>
-        <item>该分类词库已经安装</item>
-        <item>该分类词库尚未安装</item>
-        <item>查看更多</item>
+        <item>Управление словарём</item>
+        <item>Ключевые слова:</item>
+        <item>Информация</item>
+        <item>Словарь</item>
+        <item>Рекомендуемая загрузка</item>
+        <item>Название:</item>
+        <item>Автор:</item>
+        <item>Версия:</item>
+        <item>Кол. слов：</item>
+        <item>Описание:</item>
+        <item>Скачать</item>
+        <item>Загружается</item>
+        <item>Установился</item>
+        <item>Обновляется</item>
+        <item>Не скачался :(</item>
+        <item>Устанавливается</item>
+        <item>Плохой сигнал, попытайтесь позже试</item>
+        <item>Не удалось установить :(</item>
+        <item>Обновление не требуется!</item>
+        <item>:</item>
+        <item>Другие загрузки</item>
+        <item>Установка завершена</item>
+        <item>Не установлен</item>
+        <item>Подробнее</item>
     </string-array>
     <string-array name="cikures">
         <item>更新</item>
-        <item>百度输入法</item>
+        <item>Baidu IME</item>
         <item>成功导入 # 个流行词</item>
         <item>数据传输中…</item>
         <item>服务器同步数据中…</item>
@@ -1282,16 +1282,16 @@
         <item>^_^</item>
     </string-array>
     <string-array name="dataclear_item_descs">
-        <item>清除本地缓存中的数据</item>
-        <item>清除已下载的扩展工具，如涂鸦输入</item>
-        <item>清除已保存的设置</item>
-        <item>（慎用）清除所有储存在本地的用户数据，如词库、帐号信息</item>
+        <item>Данные локального кеша</item>
+        <item>Загруженные инструменты, например ввод граффити</item>
+        <item>Сохраненные настройки</item>
+        <item>Осторожно! Все локальные данные, такие как словари, информация об учетной записи</item>
     </string-array>
     <string-array name="dataclear_item_titles">
-        <item>清除缓存数据</item>
-        <item>清除扩展工具</item>
-        <item>清除本地设置</item>
-        <item>清除用户数据</item>
+        <item>Очистить кеш</item>
+        <item>Удалить расширения</item>
+        <item>Сбросить настройки</item>
+        <item>Очистить данные пользователя</item>
     </string-array>
     <string-array name="day">
         <item>一</item>
@@ -1303,36 +1303,36 @@
         <item>日</item>
     </string-array>
     <string-array name="daysOfAlmanac">
-        <item>初一</item>
-        <item>初二</item>
-        <item>初三</item>
-        <item>初四</item>
-        <item>初五</item>
-        <item>初六</item>
-        <item>初七</item>
-        <item>初八</item>
-        <item>初九</item>
-        <item>初十</item>
-        <item>十一</item>
-        <item>十二</item>
-        <item>十三</item>
-        <item>十四</item>
-        <item>十五</item>
-        <item>十六</item>
-        <item>十七</item>
-        <item>十八</item>
-        <item>十九</item>
-        <item>二十</item>
-        <item>廿一</item>
-        <item>廿二</item>
-        <item>廿三</item>
-        <item>廿四</item>
-        <item>廿五</item>
-        <item>廿六</item>
-        <item>廿七</item>
-        <item>廿八</item>
-        <item>廿九</item>
-        <item>三十</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
     </string-array>
     <string-array name="deldialog">
         <item>手机号码</item>
@@ -1375,9 +1375,9 @@
         <item>旗帜</item>
     </string-array>
     <string-array name="emoji_category_level_two_ar">
-        <item>推荐</item>
-        <item>我的</item>
-        <item>管理</item>
+        <item>Рекомендации</item>
+        <item>Мои</item>
+        <item>Управление</item>
     </string-array>
     <string-array name="emoji_category_level_two_sym">
         <item>收藏</item>
@@ -1410,9 +1410,9 @@
         <item>表情分类9</item>
     </string-array>
     <string-array name="emoji_install_tip">
-        <item>表情安装成功</item>
-        <item>表情安装失败</item>
-        <item>表情下载失败</item>
+        <item>Эмодзи установлен</item>
+        <item>Ошибка установки эмодзи</item>
+        <item>Не удалось загрузить эмодзи</item>
     </string-array>
     <string-array name="emoji_search_default_hot_words">
         <item>谢谢</item>
@@ -1431,9 +1431,9 @@
         <item>emoji_icon</item>
     </string-array>
     <string-array name="ensort">
-        <item>按词长排序</item>
-        <item>按字母排序</item>
-        <item>按词频排序</item>
+        <item>По длине</item>
+        <item>По алфавиту</item>
+        <item>По популярности</item>
     </string-array>
     <string-array name="fastinput">
         <item>→</item>
@@ -1702,10 +1702,10 @@
         <item>•</item>
     </string-array>
     <string-array name="fkey">
-        <item>符</item>
+        <item>Символ</item>
         <item>@string/empty</item>
         <item>全键</item>
-        <item>返回</item>
+        <item>Назад</item>
         <item>@string/empty</item>
         <item>123</item>
         <item>@string/empty</item>
@@ -1716,16 +1716,16 @@
         <item>.com</item>
         <item>@string/empty</item>
         <item>@string/empty</item>
-        <item>英</item>
+        <item>En</item>
         <item>中</item>
         <item>@string/empty</item>
         <item>@string/empty</item>
         <item>@string/empty</item>
         <item>@string/empty</item>
-        <item>菜单</item>
+        <item>Меню</item>
         <item>@string/empty</item>
         <item>@string/empty</item>
-        <item>拼</item>
+        <item>Py</item>
         <item>abc</item>
         <item>单字</item>
         <item>@string/empty</item>
@@ -1738,18 +1738,18 @@
         <item>@string/empty</item>
         <item>@string/empty</item>
         <item>@string/empty</item>
-        <item>删除</item>
-        <item>SPACE</item>
-        <item>ENTER</item>
-        <item>清空</item>
+        <item>Del</item>
+        <item>Space</item>
+        <item>Enter</item>
+        <item>Clear</item>
         <item>Tab</item>
         <item>Home</item>
         <item>End</item>
-        <item>剪切</item>
-        <item>复制</item>
-        <item>粘贴</item>
-        <item>全选</item>
-        <item>清除</item>
+        <item>Cut</item>
+        <item>Copy</item>
+        <item>Paste</item>
+        <item>Sel. all</item>
+        <item>Clear</item>
         <item>@string/empty</item>
         <item>@string/empty</item>
         <item>@string/empty</item>
@@ -1762,14 +1762,14 @@
         <item>@string/empty</item>
         <item>@string/empty</item>
         <item>@string/empty</item>
-        <item>编辑</item>
-        <item>地球</item>
+        <item>Edit</item>
+        <item>Earth</item>
         <item>IME</item>
         <item>@string/empty</item>
         <item>@string/empty</item>
         <item>@string/empty</item>
         <item>@string/empty</item>
-        <item>搜索</item>
+        <item>Search</item>
         <item>@string/empty</item>
         <item>@string/empty</item>
         <item>@string/empty</item>
@@ -1782,25 +1782,25 @@
         <item>@string/empty</item>
         <item>@string/empty</item>
         <item>@string/empty</item>
-        <item>分词</item>
-        <item>前往</item>
-        <item>全部</item>
-        <item>9键</item>
+        <item>Причастие</item>
+        <item>Go to</item>
+        <item>All</item>
+        <item>9 key</item>
         <item>一</item>
         <item>丨</item>
         <item>丿</item>
         <item>丶</item>
         <item>ㄥ</item>
-        <item>通配</item>
-        <item>发送</item>
-        <item>确认</item>
-        <item>下一项</item>
-        <item>笔</item>
-        <item>五</item>
-        <item>写</item>
-        <item>全屏</item>
-        <item>半屏</item>
-        <item>说完了</item>
+        <item>Подст. знак</item>
+        <item>Send</item>
+        <item>Confirm</item>
+        <item>Next</item>
+        <item>Pen</item>
+        <item>Five</item>
+        <item>Write</item>
+        <item>Full</item>
+        <item>Half</item>
+        <item>Finished</item>
         <item>\#+=</item>
     </string-array>
     <string-array name="fl_selector">
@@ -1818,7 +1818,7 @@
         <item>对文字进行复制、粘贴等操作</item>
         <item>edit</item>
         <item>表情</item>
-        <item>颜文字、鲸鱼体、emoji及更多表情</item>
+        <item>Каомодзи, эмодзи и многое другое</item>
         <item>emoji</item>
         <item>候选条管理</item>
         <item>管理候选条功能</item>
@@ -1835,8 +1835,8 @@
         <item>false</item>
     </string-array>
     <string-array name="floatwindow_positions">
-        <item>屏幕左侧</item>
-        <item>屏幕右侧</item>
+        <item>Слева</item>
+        <item>Справа</item>
     </string-array>
     <string-array name="force_float_mode">
         <item>tv.danmaku.bili</item>
@@ -1846,12 +1846,12 @@
         <item>com.netease.my.qihoo</item>
     </string-array>
     <string-array name="freqname">
-        <item>自动更新</item>
-        <item>每3天一次</item>
-        <item>每7天一次</item>
-        <item>每15天一次</item>
-        <item>每30天一次</item>
-        <item>不更新</item>
+        <item>Автообновление</item>
+        <item>Каждые 3 дня</item>
+        <item>Каждые 7 дней</item>
+        <item>Каждые 15 дней</item>
+        <item>Каждые 30 дней</item>
+        <item>Не обновлять</item>
     </string-array>
     <string-array name="freqvalue">
         <item>0</item>
@@ -1879,17 +1879,17 @@
         <item>中通</item>
     </string-array>
     <string-array name="front_express_keywords">
-        <item>快递</item>
+        <item>Экспресс-доставка</item>
         <item>快运</item>
-        <item>速递</item>
+        <item>Курьер</item>
         <item>速运</item>
-        <item>物流</item>
+        <item>Логистика</item>
     </string-array>
     <string-array name="front_list_previous_time_list">
-        <item>刚刚</item>
-        <item>%d分钟前</item>
-        <item>%d小时前</item>
-        <item>昨天 %s</item>
+        <item>Только что</item>
+        <item>%d минут назад</item>
+        <item>%d часов назад</item>
+        <item>Вчера %s</item>
     </string-array>
     <string-array name="front_verification_hyphens">
         <item>:</item>
@@ -1905,151 +1905,151 @@
         <item>安全验证</item>
     </string-array>
     <string-array name="guide">
-        <item>去勾选</item>
-        <item>去切换</item>
-        <item>已勾选</item>
-        <item>已切换</item>
-        <item>请选择百度输入法</item>
-        <item>请勾选百度输入法</item>
-        <item>尚未启用成功，点击设置</item>
+        <item>Включите Baidu IME Ru</item>
+        <item>Переключитесь на Baidu IME Ru</item>
+        <item>Включено</item>
+        <item>Переключено</item>
+        <item>Пожалуйста, выберите Baidu IME Ru</item>
+        <item>Пожалуйста, проверьте Baidu IME Ru</item>
+        <item>Не удалось активировать, нажмите Настройки</item>
     </string-array>
     <string-array name="hardtip">
-        <item>【shift】切换中英文；【ALT+空格】切换到符号输入</item>
-        <item>【Shift+回车】可切换到拼音、笔画、五笔</item>
-        <item>【Shift+回车】可切换英文联想、英文字母</item>
-        <item>【U、I、O、J、K】对应笔画【横、竖、撇、点、折】</item>
-        <item>P是通配符，L是分隔符。</item>
+        <item>【shift】 Переключение между китайским и английским языками; 【ALT+пробел】 Переключение на ввод символов</item>
+        <item>【Shift+Enter】 Переключаться между Пиньинь, Бихуа, Уби</item>
+        <item>【Shift+Enter】 Переключаться между режимами ввода английского (ассоциации или буквы)</item>
+        <item>【U, I, O, J, K】 Сопоставьте черты Бихуа</item>
+        <item>P — подстановочный знак, L — разделитель.</item>
     </string-array>
     <string-array name="hints">
-        <item>清空向左滑</item>
-        <item>上滑输入数字</item>
-        <item>手写、五笔、笔画</item>
-        <item>9键、26键 点这里</item>
+        <item>Свайп влево для очистки</item>
+        <item>Свайп вверх для ввода цифр</item>
+        <item>Рукописный, уби, бихуа</item>
+        <item>Нажмите для переключения м/у 9 и 26 кл.</item>
         <item>flaunch</item>
-        <item>双击锁定连续大写</item>
+        <item>Двойной тап для капса</item>
     </string-array>
     <string-array name="hwRecMode">
-        <item>单字</item>
-        <item>自由写</item>
+        <item>Слово</item>
+        <item>Фразы</item>
     </string-array>
     <string-array name="hwRecType">
-        <item>连写</item>
-        <item>单字</item>
-        <item>叠写</item>
-        <item>自由写</item>
+        <item>Непрерывное письмо</item>
+        <item>Слово</item>
+        <item>Перезапись</item>
+        <item>Свободно писать</item>
     </string-array>
     <string-array name="infos">
-        <item>注意:用户词中不常用的10%将被清理,清理后无法恢复,是否继续?</item>
-        <item>您的用户词少于1000不能完成清理:(</item>
-        <item>用户词清理中…</item>
-        <item>太棒了,清理已完毕！本次共清理了 # 个不常用的用户词。</item>
-        <item>用户词备份</item>
-        <item>无可编辑的双拼方案</item>
-        <item>中文用户词</item>
-        <item>英文用户词</item>
-        <item>：无用户词可备份。</item>
-        <item>啊哦,无文件可导出:(</item>
+        <item>Примечание: 10% редко используемых пользовательских слов будут очищены и не могут быть восстановлены после очистки, продолжить?</item>
+        <item>Ваших пользовательских слов меньше 1000, не могу очистить словарь :(</item>
+        <item>Очистка...</item>
+        <item>Очистка завершена! Было очищено в общей сложности # пользовательских слов.</item>
+        <item>Создать резервную копию пользовательского словаря</item>
+        <item>Нет доступного решения Shuangpin</item>
+        <item>Китайские слова</item>
+        <item>Английские слова</item>
+        <item>: нет пользовательского словаря для резервного копирования</item>
+        <item>Нет файла для экспорта :(</item>
         <item>@string/empty</item>
-        <item>联系人导入完成！</item>
-        <item>无新联系人可导入。</item>
-        <item>词库解压错误:(</item>
-        <item>该帐号下所有用户词将被删除,是否继续?</item>
-        <item>从百度删除$备份中…</item>
-        <item>清除用户词</item>
-        <item>检测实体键盘按键方案中…</item>
-        <item>我在使用@百度手机输入法 ，词库大，速度快，好看又好用，小伙伴们都惊呆了！快来下载吧：https://srf.baidu.com/</item>
-        <item>啊哦,该功能需要存储卡哦,插卡再试一下</item>
-        <item>请注意</item>
-        <item>数据传输中…</item>
-        <item>用户登录</item>
-        <item>备份$到百度中…</item>
-        <item>啊哦,文件导出失败:(</item>
-        <item>:备份成功！</item>
-        <item>杯具,您的用户词文件太大,无法恢复:(</item>
-        <item>默认文件恢复中…</item>
-        <item>与服务器同步数据中…</item>
-        <item>数据恢复中…</item>
-        <item>载入主题中…</item>
-        <item>用户词同步</item>
-        <item>：恢复成功!</item>
-        <item>更新说明</item>
-        <item>：无用户词可恢复。</item>
-        <item>版本号</item>
+        <item>Импорт контактов завершен!</item>
+        <item>Нет новых контактов для импорта</item>
+        <item>Ошибка распаковки словаря :(</item>
+        <item>Удаление пользовательского словаря этой учетной записи. Продолжить?</item>
+        <item>Удаление $ резервной копии из Baidu...</item>
+        <item>Очистить пользовательский словарь</item>
+        <item>В схеме определения физических клавиш клавиатуры...</item>
+        <item>Ля какая фигня, зацени: https://srf.baidu.com/</item>
+        <item>Пожалуйста, вставьте SD-карту и повторите попытку</item>
+        <item>Обратите внимание</item>
+        <item>Передача данных...</item>
+        <item>Войти</item>
+        <item>Создание резервной копии $ в Baidu...</item>
+        <item>Не удалось экспортировать файл:(</item>
+        <item>: Резервное копирование выполнено!</item>
+        <item>Ваш пользовательский словарь слишком велик для восстановления :(</item>
+        <item>Восстановление файла по умолчанию...</item>
+        <item>Синхронизация данных с сервером...</item>
+        <item>Восстановление данных...</item>
+        <item>Загружается тема...</item>
+        <item>Синхронизация пользовательского словаря</item>
+        <item>: Восстановление выполнено!</item>
+        <item>Обновить информацию</item>
+        <item>: Нет пользовательского словаря для восстановления.</item>
+        <item>Номер версии</item>
         <item>Cp.bin</item>
         <item>Ue.bin</item>
         <item>@string/empty</item>
-        <item>更新</item>
-        <item>网络不给力,稍后再试</item>
+        <item>Обновить</item>
+        <item>Слабый сигнал, попытайтесь позже</item>
         <item>@string/empty</item>
-        <item>百度输入法</item>
-        <item>是否开始更新流行词？</item>
-        <item>是否开始下载更新版本？</item>
-        <item>您已更新至最新～</item>
-        <item>同步已完成！</item>
+        <item>Baidu IME Ru</item>
+        <item>Обновить словарь популярных слов?</item>
+        <item>Загрузить новую версию?</item>
+        <item>Вы обновили до последней версии</item>
+        <item>Синхронизация завершена!</item>
         <item>@string/empty</item>
-        <item>请勾选百度输入法</item>
-        <item>载入中…</item>
-        <item>皮肤文件有错误与输入法存在兼容问题，建议安装使用官方皮肤。</item>
-        <item>目录下</item>
-        <item>文件已成功导出到 </item>
-        <item>恢复默认词库后将清空本地用户词库，但不会清空云端同步的用户词，您确定继续吗？</item>
-        <item>双拼方案将要恢复默认,是否继续?</item>
-        <item>符号列表将要恢复默认,是否继续?</item>
-        <item>五笔输入方案将要恢复默认,是否继续?</item>
-        <item>词库管理</item>
-        <item>杯具,您的用户词文件太大,无法备份:(</item>
-        <item>啊哦,部分功能需要装载存储卡哦</item>
-        <item>用户登录</item>
-        <item>用户名</item>
-        <item>密　码</item>
-        <item>杯具,皮肤格式不兼容,安装失败:(</item>
-        <item>百度帐号</item>
-        <item>已登录</item>
-        <item>登录百度帐号</item>
-        <item>登录   注册</item>
-        <item>退出</item>
-        <item>正在退出百度帐号</item>
-        <item>是否退出百度帐号</item>
-        <item>正在检查</item>
-        <item>努力分享中…</item>
-        <item>获取分享信息失败，请重试</item>
-        <item>网络用户词清除成功!</item>
-        <item>啊哦,网络用户词清除失败,再试一次吧</item>
-        <item>努力清除中…</item>
-        <item>$条用户词已同步！</item>
-        <item>$条用户词已同步！PC 端木有找到用户词…</item>
-        <item>用户词同步成功！</item>
-        <item>您的本地用户词已是最新！</item>
-        <item>啊哦,数据同步失败,再试一次吧</item>
-        <item>上次同步： </item>
-        <item>网络用户词同步中…</item>
-        <item>啊哦，本地用户词太大了，请清理后再同步哦！</item>
-        <item>"啊哦,网络同步失败:(
-手机内存不足啦,释放空间再试试~"</item>
-        <item>一键恢复所有设置项</item>
-        <item>用户词智能清理</item>
-        <item>系统将会自动清理10%最不常用的用户自造词，是否确认清理？</item>
-        <item>清理自造词成功!</item>
-        <item>杯具,您的用户词小于1000,无法清理:(</item>
-        <item>网络同步用户词设置</item>
-        <item>包括电脑和手机用户词</item>
-        <item>啊哦,词库出错,重启百度输入法试试</item>
-        <item>由于该皮肤存在资源缺失问题，皮肤安装失败，将返回到默认皮肤</item>
-        <item>正在备份设置项、懒人短语</item>
-        <item>正在恢复设置项、懒人短语</item>
-        <item>正在清空云备份</item>
-        <item>备份将替换云端已有内容</item>
-        <item>恢复云端内容将覆盖本地设置、懒人短语</item>
-        <item>是否确定清空云端备份的设置项、懒人短语？</item>
-        <item>成功备份设置项、懒人短语</item>
-        <item>成功恢复设置项、懒人短语</item>
-        <item>云端备份已清空</item>
-        <item>备份失败，请重试</item>
-        <item>您还没有备份过设置项哦</item>
-        <item>建议云端备份您的设置项，一次备份永不丢失哦~</item>
-        <item>检测到云端有您的设置项备份，是否立即同步至本地？</item>
-        <item>上次备份：</item>
-        <item>您的登录已过期，请重新登录</item>
+        <item>Пожалуйста, проверьте Baidu IME Ru</item>
+        <item>Загрузка...</item>
+        <item>Ошибка в файле скина. Пожалуйста установите и используйте официальный скин.</item>
+        <item>каталог</item>
+        <item>Файл успешно экспортирован в </item>
+        <item>После восстановления словаря по умолчанию локальный пользовательский словарь будет очищен, но пользовательский словарь, синхронизированный с облаком, не будет очищен. Продолжить?</item>
+        <item>Схема Shuangpin будет восстановлена по умолчанию. Продолжить?</item>
+        <item>Список символов будет восстановлен по умолчанию. Продолжить?</item>
+        <item>Схема ввода Уби будет восстановлена по умолчанию. Продолжить?</item>
+        <item>Управление словарём</item>
+        <item>Ваш словарь слишком велик для резервного копирования :(</item>
+        <item>Нет SD-карты, некоторые функции будут недоступны</item>
+        <item>Войти</item>
+        <item>Имя пользователя</item>
+        <item>Пароль</item>
+        <item>Формат скина не совместим. Установка не удалась:(</item>
+        <item>Учетная запись Baidu</item>
+        <item>Вы уже вошли в систему</item>
+        <item>Вход в учетную запись</item>
+        <item>Вход или регистрация</item>
+        <item>Выйти</item>
+        <item>Выход из учетной записи Baidu</item>
+        <item>Выйти из учетной записи Baidu?</item>
+        <item>Проверка</item>
+        <item>Поделиться...</item>
+        <item>Не удалось получить информацию о обмене. Повторите попытку</item>
+        <item>Пользовательский словарь в облаке очищен!</item>
+        <item>Не удалось очистить пользовательский словарь в облаке. Попытайтесь снова.</item>
+        <item>Очистка...</item>
+        <item>$ пользовательских слов синхронизированы!</item>
+        <item>$ пользовательских слов синхронизированы! Найдены слова пользователя...</item>
+        <item>Синхронизация выполнена!</item>
+        <item>Локальный словарь обновлён!</item>
+        <item>Синхронизация не удалась, повторите попытку.</item>
+        <item>Последняя синхронизация: </item>
+        <item>Синхронизация словаря в облаке...</item>
+        <item>Словарь слишком большой. Очистите его перед синхронизацией.</item>
+        <item>"Синхронизация не удалась :(
+Недостаточно памяти телефона, освободите место и повторите попытку"</item>
+        <item>Сбросить все настройки</item>
+        <item>Интеллектуальная очистка пользовательского словаря</item>
+        <item>Будут удалены 10% редко используемых прользовательских слов. Вы уверены, что хотите продолжить?</item>
+        <item>Пользовательский словарь почищен!</item>
+        <item>Словарь слишком мал для очистки (менее 100 слов) :(</item>
+        <item>Синхронизировать пользовательский словарь</item>
+        <item>Включение пользовательского словаря на все устройства</item>
+        <item>В словаре ошибка, перезапустите Baidu IME</item>
+        <item>Из-за нехватки ресурсов в скине установка не удалась. Будет возвращен скин по умолчанию</item>
+        <item>Экспорт</item>
+        <item>Импорт</item>
+        <item>Очистка</item>
+        <item>Будут перезаписаны данные в облаке</item>
+        <item>Будут перезаписаны локальные данные</item>
+        <item>Вы уверены, что хотите очистить настройки и ленивые фразы в облаке?</item>
+        <item>Настройки и фразы экспортированы</item>
+        <item>Настройки и фразы импортированы</item>
+        <item>Данные в облаке удалены</item>
+        <item>Не удалось создать резервную копию. Повторите попытку</item>
+        <item>Вы еще не создали резервную копию</item>
+        <item>Создайте резервную копию Ваших настроек в облаке. Резервная копия никогда не потеряется</item>
+        <item>В облаке обнаружена резервная копия Ваших настроек. Хотите немедленно синхронизироваться с локальными?</item>
+        <item>Последняя резервная копия: </item>
+        <item>Сессия истекла. Пожалуйста перезайдите</item>
     </string-array>
     <string-array name="installer">
         <item>努力复制数据中…</item>
@@ -2144,25 +2144,25 @@
         <item>70</item>
     </string-array>
     <string-array name="keymapheight">
-        <item>默认</item>
-        <item>最高</item>
-        <item>最低</item>
+        <item>По умолчанию</item>
+        <item>Максимум</item>
+        <item>Минимум</item>
     </string-array>
     <string-array name="keymapnames">
-        <item>拼音</item>
-        <item>英文</item>
-        <item>手写</item>
+        <item>Пиньинь</item>
+        <item>Английский</item>
+        <item>Рукописный</item>
         <item></item>
-        <item>笔画</item>
-        <item>语音</item>
-        <item>注音</item>
-        <item>仓颉</item>
-        <item>自定义</item>
-        <item>9键</item>
-        <item>26键</item>
-        <item>半屏</item>
-        <item>全屏</item>
-        <item>五笔</item>
+        <item>Бихуа</item>
+        <item>Голос</item>
+        <item>Чжуинь</item>
+        <item>Цанцзе</item>
+        <item>Пользовательский</item>
+        <item>9кл.</item>
+        <item>26кл.</item>
+        <item>Пол экрана</item>
+        <item>Весь экран</item>
+        <item>Уби</item>
     </string-array>
     <string-array name="language_guide_list">
         <item>bo</item>
@@ -2200,8 +2200,8 @@
         <item>QWERTY_Danish</item>
     </string-array>
     <string-array name="lazy_manage_tabs">
-        <item>我的短语</item>
-        <item>推荐短语</item>
+        <item>Мои фразы</item>
+        <item>Рекомендованное</item>
     </string-array>
     <string-array name="listvalue2">
         <item>1</item>
@@ -2780,23 +2780,23 @@
         <item>#ff61dadd</item>
     </array>
     <string-array name="mix">
-        <item>Emoji、颜文字候选</item>
-        <item>表情联想</item>
-        <item>AR表情加入候选</item>
+        <item>Эмодзи, кандидаты на эмодзи</item>
+        <item>Ассоциация выражений</item>
+        <item>Выражение AR для присоединения к кандидатам</item>
     </string-array>
     <string-array name="monthOfAlmanac">
-        <item>正月</item>
-        <item>二月</item>
-        <item>三月</item>
-        <item>四月</item>
-        <item>五月</item>
-        <item>六月</item>
-        <item>七月</item>
-        <item>八月</item>
-        <item>九月</item>
-        <item>十月</item>
-        <item>十一月</item>
-        <item>腊月</item>
+        <item>Янв</item>
+        <item>Фев</item>
+        <item>Мар</item>
+        <item>Апр</item>
+        <item>Май</item>
+        <item>Июн</item>
+        <item>Июл</item>
+        <item>Авг</item>
+        <item>Сен</item>
+        <item>Окт</item>
+        <item>Ноя</item>
+        <item>Дек</item>
     </string-array>
     <string-array name="myphrase">
         <item>添加</item>
@@ -2836,13 +2836,13 @@
         <item>个性短语已存在</item>
     </string-array>
     <string-array name="networksyn">
-        <item>同步全部用户词</item>
-        <item>仅同步手机用户词</item>
+        <item>Синхронизировать весь пользовательский словарь</item>
+        <item>Синхронизировать пользовательский словарь только на телефонах и планшетах</item>
     </string-array>
     <string-array name="nineonesynops">
-        <item>始终同步</item>
-        <item>始终不同步</item>
-        <item>每次询问我</item>
+        <item>Всегда</item>
+        <item>Никогда</item>
+        <item>Спрашивать</item>
     </string-array>
     <string-array name="noti_center">
         <item>通知中心</item>
@@ -2867,16 +2867,16 @@
         <item>.html/</item>
     </string-array>
     <string-array name="ocr_support_lang">
-        <item>自动</item>
-        <item>中文</item>
-        <item>英语</item>
-        <item>日语</item>
-        <item>法语</item>
-        <item>西班牙语</item>
-        <item>俄语</item>
-        <item>葡萄牙语</item>
-        <item>德语</item>
-        <item>意大利语</item>
+        <item>Авто</item>
+        <item>Китайский</item>
+        <item>Английский</item>
+        <item>Японский</item>
+        <item>Французский</item>
+        <item>Испанский</item>
+        <item>Русский</item>
+        <item>Португальский</item>
+        <item>Немецкий</item>
+        <item>Итальянский</item>
     </string-array>
     <string-array name="ocr_support_lang_param">
         <item></item>
@@ -2915,15 +2915,15 @@
         <item>it</item>
     </string-array>
     <string-array name="ocr_translate_lang">
-        <item>英语</item>
-        <item>日语</item>
-        <item>韩语</item>
-        <item>法语</item>
-        <item>俄罗斯语</item>
-        <item>意大利语</item>
-        <item>葡萄牙语</item>
-        <item>西班牙语</item>
-        <item>德语</item>
+        <item>Английский</item>
+        <item>Японский</item>
+        <item>Корейский</item>
+        <item>Французский</item>
+        <item>Русский</item>
+        <item>Итальянский</item>
+        <item>Португальский</item>
+        <item>Испанский</item>
+        <item>Немецкий</item>
     </string-array>
     <string-array name="ocr_translate_lang_abbreviation">
         <item>en</item>
@@ -2937,8 +2937,8 @@
         <item>de</item>
     </string-array>
     <string-array name="offlineVoiceMode">
-        <item>无网络或网络不好时开启</item>
-        <item>无WIFI时开启</item>
+        <item>Отсутствует или плохой сигнал сети</item>
+        <item>Отсутствует Wi-Fi</item>
     </string-array>
     <string-array name="offline_voice_value">
         <item>0</item>
@@ -2950,26 +2950,26 @@
         <item>sys.dic</item>
     </string-array>
     <string-array name="permission_reason1">
-        <item>设备信息</item>
-        <item>存储权限</item>
-        <item>位置信息权限</item>
-        <item>录音权限</item>
-        <item>相机权限</item>
-        <item>日历权限</item>
-        <item>通讯录权限</item>
-        <item>定位和通讯录权限</item>
+        <item>Информация об устройстве</item>
+        <item>Хранение</item>
+        <item>Местоположение</item>
+        <item>Запись</item>
+        <item>Камера</item>
+        <item>Календарь</item>
+        <item>Контакты</item>
+        <item>Местоположение и контакты</item>
         <item></item>
         <item></item>
     </string-array>
     <string-array name="permission_refuse">
         <item></item>
-        <item>输入法无法获取存储权限，</item>
-        <item>输入法无法获取定位权限，</item>
-        <item>输入法无法获取录音权限，</item>
-        <item>输入法无法获取拍照权限，</item>
-        <item>输入法无法获取通讯录权限，</item>
-        <item>输入法无法获取定位和通讯录权限，</item>
-        <item>输入法无法获取日历权限，</item>
+        <item>нет разрешения на хранение,</item>
+        <item>нет доступа к местоположению,</item>
+        <item>нет разрешения на запись,</item>
+        <item>нет разрешения на съёмку,</item>
+        <item>нет доступа к контактам,</item>
+        <item>нет доступа к местоположению и контактам,</item>
+        <item>нет доступа к календарю,</item>
         <item></item>
     </string-array>
     <string-array name="predefined_layout_display_names">
@@ -2989,17 +2989,17 @@
         <item>pcqwerty</item>
     </string-array>
     <string-array name="privacy_mode_title">
-        <item>基础打字模式</item>
-        <item>完整体验模式</item>
+        <item>Основной режим ввода</item>
+        <item>Полный режим</item>
     </string-array>
     <string-array name="privacy_mode_value">
         <item>0</item>
         <item>1</item>
     </string-array>
     <string-array name="punctuationMode">
-        <item>自动省略句末句号</item>
-        <item>无标点，仅空格分隔</item>
-        <item>自动添加完整标点</item>
+        <item>Только точка</item>
+        <item>Только пробел</item>
+        <item>Полная пунктуация</item>
     </string-array>
     <string-array name="punctuation_value">
         <item>2</item>
@@ -3007,8 +3007,8 @@
         <item>0</item>
     </string-array>
     <string-array name="py26listFilter">
-        <item>拼音全键下使用笔画筛选</item>
-        <item>拼音全键下使用拼音筛选</item>
+        <item>Фильтр Бихуа</item>
+        <item>Фильтр Пиньинь</item>
     </string-array>
     <string-array name="rubbish">
         <item>裁蹲绋蹲睬</item>
@@ -3066,27 +3066,27 @@
         <item>素材图</item>
     </string-array>
     <string-array name="search_type_hints">
-        <item>搜索你想要的关键词</item>
-        <item>搜图片</item>
-        <item>搜表情</item>
-        <item>搜视频表情</item>
-        <item>输入你想要翻译的语句</item>
+        <item>Поиск по ключевому слову</item>
+        <item>Поиск картинок</item>
+        <item>Поиск эмодзи</item>
+        <item>Поиск видеовыражений</item>
+        <item>Введите текст для перевода</item>
     </string-array>
     <string-array name="simple_keymapnames">
-        <item>拼</item>
+        <item>Пи</item>
         <item>En</item>
-        <item>手</item>
+        <item>Рв</item>
         <item></item>
-        <item>笔</item>
-        <item>音</item>
-        <item>注</item>
-        <item>仓</item>
-        <item>自定义</item>
-        <item>9键</item>
-        <item>26键</item>
-        <item>半屏</item>
-        <item>全屏</item>
-        <item>五</item>
+        <item>Бх</item>
+        <item>Гв</item>
+        <item>Чи</item>
+        <item>Цз</item>
+        <item>польз</item>
+        <item>9кл</item>
+        <item>26кл</item>
+        <item>Пол</item>
+        <item>Весь</item>
+        <item>Уби</item>
     </string-array>
     <string-array name="simulation_keyboard_token">
         <item>28c51f9c60f275572ef11dab16d9e7a6</item>
@@ -3096,9 +3096,9 @@
     </string-array>
     <string-array name="simulation_keyboard_token_name">
         <item>CHERRY MX9.0</item>
-        <item>CHERRY经典黑</item>
-        <item>CHERRY 8.0红白</item>
-        <item>CHERRY 8.0纯白</item>
+        <item>CHERRY классическая чёрная</item>
+        <item>CHERRY 8.0 красно-белая</item>
+        <item>CHERRY 8.0 белая</item>
     </string-array>
     <string-array name="skin_tab_list">
         <item>skin_local</item>
@@ -3107,9 +3107,9 @@
         <item>skin_sort</item>
     </string-array>
     <string-array name="sliding">
-        <item>切换9键和26键</item>
-        <item>切换输入方式（默认中英）</item>
-        <item>关闭</item>
+        <item>Макет (9 или 26 клавиш)</item>
+        <item>Язык (китайский/английский)</item>
+        <item>Отключено</item>
     </string-array>
     <string-array name="subtype_locale_exception_keys">
         <item>en_US</item>
@@ -3143,9 +3143,9 @@
         <item>220</item>
     </integer-array>
     <string-array name="tietu_default_name">
-        <item>收藏</item>
-        <item>最近</item>
-        <item>推荐</item>
+        <item>Избранное</item>
+        <item>Недавнее</item>
+        <item>Рекомендации</item>
     </string-array>
     <array name="tokenlist" />
     <array name="touch_position_correction_data_default" />
@@ -3161,18 +3161,18 @@
         <item>0.1522819</item>
     </string-array>
     <string-array name="translate_lang">
-        <item>英语</item>
-        <item>日语</item>
-        <item>韩语</item>
-        <item>粤语</item>
-        <item>法语</item>
-        <item>俄语</item>
-        <item>泰语</item>
-        <item>阿拉伯语</item>
-        <item>意大利语</item>
-        <item>葡萄牙语</item>
-        <item>西班牙语</item>
-        <item>德语</item>
+        <item>Английский</item>
+        <item>Японский</item>
+        <item>Корейский</item>
+        <item>Кантонский</item>
+        <item>Французский</item>
+        <item>Русский</item>
+        <item>Тайский</item>
+        <item>Арабский</item>
+        <item>Итальянский</item>
+        <item>Португальский</item>
+        <item>Испанский</item>
+        <item>Немецкий</item>
     </string-array>
     <string-array name="translate_lang_short">
         <item>en</item>
@@ -3189,23 +3189,23 @@
         <item>de</item>
     </string-array>
     <string-array name="translate_map_key">
-        <item>没有可用更新</item>
-        <item>快速符号</item>
-        <item>默认分组</item>
-        <item>中文符</item>
-        <item>英文符</item>
-        <item>网络</item>
-        <item>特殊</item>
-        <item>数学</item>
-        <item>序号</item>
-        <item>希俄</item>
-        <item>拉丁</item>
-        <item>箭头</item>
-        <item>平假</item>
-        <item>片假</item>
-        <item>注音</item>
-        <item>部首</item>
-        <item>制表</item>
+        <item>Нет доступных обновлений</item>
+        <item>Быстрые символы</item>
+        <item>По умолчанию</item>
+        <item>Китайские</item>
+        <item>Английские</item>
+        <item>Сеть</item>
+        <item>Особые</item>
+        <item>Математика</item>
+        <item>Серийный номер</item>
+        <item>Греческий и кириллица</item>
+        <item>Латинский</item>
+        <item>Стрелки</item>
+        <item>Праздник</item>
+        <item>Выйти</item>
+        <item>Чжуинь</item>
+        <item>Радикалы</item>
+        <item>Табулирование</item>
     </string-array>
     <string-array name="translate_map_value">
         <item>There is no updates available</item>
@@ -3332,22 +3332,22 @@
         <item>https://adv.sec.miui.com/stat/input</item>
     </string-array>
     <string-array name="user_experience_text">
-        <item>用户体验改进计划</item>
-        <item>参与用户体验改进计划</item>
-        <item>如果有疑问请访问</item>
+        <item>Программа улучшения UX</item>
+        <item>Принять участие в программе</item>
+        <item>Если есть вопросы:</item>
         <item>https://srf.baidu.com/</item>
         <item>@string/empty</item>
         <item>@string/empty</item>
-        <item>百度出品</item>
+        <item>Произведено Baidu</item>
         <item>Copyright 2010–2021</item>
-        <item>键盘手写设置</item>
-        <item>安装在SD卡中，可能会导致重启切换回系统输入法，建议将输入法移至内存中，避免此问题</item>
-        <item>版本号S </item>
-        <item>服务协议</item>
-        <item>解决方案：</item>
-        <item>■   录音设备可能被其它APP占用，请关闭应用或者重启设备</item>
-        <item>■   进入应用管理权限设置，打开语音相关权限</item>
-        <item>提示   下一次升级时，请勾选语音相关权限</item>
+        <item>Настройки рукописного ввода</item>
+        <item>Установка на SD-карту может привести к тому, что при перезапуске система вернется к системному методу ввода. Во избежание этой проблемы рекомендуется переместить метод ввода во внутреннюю память.</item>
+        <item>Версия</item>
+        <item>Соглашение об обслуживании</item>
+        <item>Решение:</item>
+        <item>■ Записывающее устройство может быть занято другими приложениями, закройте приложение или перезагрузите устройство</item>
+        <item>■ Ввойдите в настройки разрешений для приложений и включите разрешения, связанные с голосовой связью</item>
+        <item>Запрос на обновление, пожалуйста, проверьте разрешения, связанные с голосовой связью</item>
     </string-array>
     <string-array name="vocabulary_tab_list">
         <item>vocabulary_fresh_word</item>
@@ -3361,21 +3361,21 @@
         <item>@string/voice_hint_correct_add</item>
     </string-array>
     <string-array name="wordassco">
-        <item>单次联想</item>
-        <item>连续联想</item>
-        <item>关闭联想</item>
+        <item>Одно слово</item>
+        <item>Непрерывно</item>
+        <item>Отключено</item>
     </string-array>
     <string-array name="wx_session_hint">
-        <item>完成以下三步，即可分享表情哦~</item>
-        <item>选择联系人</item>
-        <item>点击分享</item>
-        <item>返回百度输入法</item>
-        <item>知道了</item>
+        <item>Выполните следующие три шага, чтобы поделиться эмодзи</item>
+        <item>Выберите контакт</item>
+        <item>Нажмите "Поделиться"</item>
+        <item>Вернуться к Baidu IME</item>
+        <item>Понятно</item>
     </string-array>
     <string-array name="yunshuru">
-        <item>仅在WIFI环境下开启</item>
-        <item>所有网络环境均开启</item>
-        <item>关闭</item>
+        <item>Только через Wi-Fi</item>
+        <item>Все сети</item>
+        <item>Отключено</item>
     </string-array>
     <string-array name="yunshuru_value">
         <item>3</item>

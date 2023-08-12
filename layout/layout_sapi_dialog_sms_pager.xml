@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
   xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="14.0dip" android:textColor="#ff858585" android:id="@id/sapi_sdk_tv_input_code_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="验证码已发送至你的手机 " />
+    <TextView android:textSize="14.0dip" android:textColor="#ff858585" android:id="@id/sapi_sdk_tv_input_code_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="На ваш мобильный телефон отправлен код подтверждения" />
     <FrameLayout android:id="@id/sapi_sdk_fl_input_box" android:layout_width="291.0dip" android:layout_height="41.0dip" android:layout_marginTop="23.0dip" />
-    <TextView android:textSize="11.0sp" android:textColor="#ffff3333" android:id="@id/sapi_sdk_tv_error_tip" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:text="验证码有误，请重新输入" />
+    <TextView android:textSize="11.0sp" android:textColor="#ffff3333" android:id="@id/sapi_sdk_tv_error_tip" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:text="Код подтверждения неверный, введите его еще раз" />
     <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="13.0dip">
-        <TextView android:textSize="14.0sp" android:textColor="#ff1f1f1f" android:id="@id/sapi_sdk_tv_change_phone_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="更换手机号" />
-        <TextView android:textSize="14.0sp" android:textColor="#ff858585" android:id="@id/sapi_sdk_tv_resend_code" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="21.0dip" android:text="重新发送 (55s)" />
+        <TextView android:textSize="14.0sp" android:textColor="#ff1f1f1f" android:id="@id/sapi_sdk_tv_change_phone_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Изменить номер телефона" />
+        <TextView android:textSize="14.0sp" android:textColor="#ff858585" android:id="@id/sapi_sdk_tv_resend_code" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="21.0dip" android:text="Отправить (55с)" />
     </LinearLayout>
 </LinearLayout>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RadioGroup android:orientation="horizontal" android:id="@id/sapi_sdk_addr_tag_group" android:layout_width="wrap_content" android:layout_height="wrap_content"
   xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.baidu.pass.ecommerce.common.view.CheckedRadioButton android:id="@id/sapi_sdk_addr_tag_home_rb" android:layout_marginRight="13.0dip" android:text="家" style="@style/sapi_sdk_default_tag_btn_light" />
-    <com.baidu.pass.ecommerce.common.view.CheckedRadioButton android:id="@id/sapi_sdk_addr_tag_company_rb" android:layout_marginRight="13.0dip" android:text="公司" style="@style/sapi_sdk_default_tag_btn_light" />
-    <com.baidu.pass.ecommerce.common.view.CheckedRadioButton android:id="@id/sapi_sdk_addr_tag_school_rb" android:text="学校" style="@style/sapi_sdk_default_tag_btn_light" />
+    <com.baidu.pass.ecommerce.common.view.CheckedRadioButton android:id="@id/sapi_sdk_addr_tag_home_rb" android:layout_marginRight="13.0dip" android:text="Дом" style="@style/sapi_sdk_default_tag_btn_light" />
+    <com.baidu.pass.ecommerce.common.view.CheckedRadioButton android:id="@id/sapi_sdk_addr_tag_company_rb" android:layout_marginRight="13.0dip" android:text="Компания" style="@style/sapi_sdk_default_tag_btn_light" />
+    <com.baidu.pass.ecommerce.common.view.CheckedRadioButton android:id="@id/sapi_sdk_addr_tag_school_rb" android:text="Школа" style="@style/sapi_sdk_default_tag_btn_light" />
 </RadioGroup>

@@ -2,5 +2,5 @@
 <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="35.0dip"
   xmlns:android="http://schemas.android.com/apk/res/android">
     <View android:id="@id/sapi_sdk_load_more_ic" android:background="@drawable/sapi_sdk_load_more_loading_ic" android:visibility="gone" android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_marginRight="7.0dip" />
-    <TextView android:textSize="11.0dip" android:textColor="@color/sapi_sdk_addr_load_more_loading_text_color" android:layout_gravity="center" android:id="@id/sapi_sdk_load_more_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="正在加载…" />
+    <TextView android:textSize="11.0dip" android:textColor="@color/sapi_sdk_addr_load_more_loading_text_color" android:layout_gravity="center" android:id="@id/sapi_sdk_load_more_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Загрузка..." />
 </LinearLayout>

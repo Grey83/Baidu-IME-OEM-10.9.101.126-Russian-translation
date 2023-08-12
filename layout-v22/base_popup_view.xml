@@ -8,7 +8,7 @@
                 <com.baidu.input.acgfont.ImeTextView android:textSize="19.0sp" android:textStyle="bold" android:textColor="#ff2d2f35" android:ellipsize="end" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:maxEms="12" android:layout_centerHorizontal="true" />
                 <com.baidu.input.acgfont.ImeTextView android:textSize="9.0sp" android:textColor="#fff65151" android:id="@id/tv_nums" android:background="@drawable/emotion2_add_emotion_person_num" android:paddingLeft="5.669983dip" android:paddingTop="1.3299866dip" android:paddingRight="5.669983dip" android:paddingBottom="1.3299866dip" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_toRightOf="@id/tv_title" android:layout_centerVertical="true" android:paddingHorizontal="5.669983dip" android:paddingVertical="1.3299866dip" />
             </RelativeLayout>
-            <com.baidu.input.emotion2.CollapsibleTextView android:textColor="#ff4e5158" android:id="@id/tv_desc" android:layout_width="fill_parent" android:layout_height="wrap_content" app:collapsedText="... 全部" app:expandedText="    收起" />
+            <com.baidu.input.emotion2.CollapsibleTextView android:textColor="#ff4e5158" android:id="@id/tv_desc" android:layout_width="fill_parent" android:layout_height="wrap_content" app:collapsedText="... все" app:expandedText="    убрать" />
             <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_info" android:layout_width="fill_parent" android:layout_height="wrap_content">
                 <com.baidu.input.emotion.type.ar.base.baseview.RoundLayout android:layout_width="21.329987dip" android:layout_height="21.329987dip" app:attr_round_corner="10.699982dip">
                     <ImageView android:id="@id/iv_user" android:layout_width="21.329987dip" android:layout_height="21.329987dip" />
@@ -29,7 +29,7 @@
                     </com.baidu.input.emotion2.LockLinearLayout>
                     <com.baidu.input.emotion2.LockTextView android:textColor="#ffffffff" android:gravity="center" android:id="@id/tv_share_first" android:layout_width="fill_parent" android:layout_height="fill_parent" />
                 </RelativeLayout>
-                <com.baidu.input.emotion2.LockTextView android:textColor="#ffffffff" android:gravity="center" android:id="@id/tv_share_second" android:background="@drawable/emotion2_share_bg" android:paddingLeft="17.5dip" android:paddingRight="17.5dip" android:layout_width="wrap_content" android:layout_height="29.669983dip" android:text="分享免单" android:paddingHorizontal="17.5dip" />
+                <com.baidu.input.emotion2.LockTextView android:textColor="#ffffffff" android:gravity="center" android:id="@id/tv_share_second" android:background="@drawable/emotion2_share_bg" android:paddingLeft="17.5dip" android:paddingRight="17.5dip" android:layout_width="wrap_content" android:layout_height="29.669983dip" android:text="Поделиться бесплатным заказом" android:paddingHorizontal="17.5dip" />
             </LinearLayout>
         </RelativeLayout>
     </RelativeLayout>

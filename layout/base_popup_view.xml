@@ -29,7 +29,7 @@
                     </com.baidu.input.emotion2.LockLinearLayout>
                     <com.baidu.input.emotion2.LockTextView android:textColor="#ffffffff" android:gravity="center" android:id="@id/tv_share_first" android:layout_width="fill_parent" android:layout_height="fill_parent" />
                 </RelativeLayout>
-                <com.baidu.input.emotion2.LockTextView android:textColor="#ffffffff" android:gravity="center" android:id="@id/tv_share_second" android:background="@drawable/emotion2_share_bg" android:paddingLeft="17.5dip" android:paddingRight="17.5dip" android:layout_width="wrap_content" android:layout_height="29.669983dip" android:text="分享免单" />
+                <com.baidu.input.emotion2.LockTextView android:textColor="#ffffffff" android:gravity="center" android:id="@id/tv_share_second" android:background="@drawable/emotion2_share_bg" android:paddingLeft="17.5dip" android:paddingRight="17.5dip" android:layout_width="wrap_content" android:layout_height="29.669983dip" android:text="Поделиться бесплатным заказом" />
             </LinearLayout>
         </RelativeLayout>
     </RelativeLayout>
